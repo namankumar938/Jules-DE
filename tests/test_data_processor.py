@@ -23,24 +23,54 @@ class TestDataProcessor(unittest.TestCase):
         """Set up some common test data."""
         self.now = datetime.datetime.now()
         self.sample_record_valid_1 = create_purchase_record(
-            timestamp=self.now - datetime.timedelta(days=1), user_id=1, product_id=101, product_name="Laptop",
-            product_category="electronics", product_price=1200.00, quantity=1, payment_method="credit card"
+            timestamp=self.now - datetime.timedelta(days=1),
+            user_id=1,
+            product_id=101,
+            product_name="Laptop",
+            product_category="electronics",
+            product_price=1200.00,
+            quantity=1,
+            payment_method="credit card"
         )
         self.sample_record_valid_2 = create_purchase_record(
-            timestamp=self.now - datetime.timedelta(days=2), user_id=2, product_id=102, product_name="Mouse",
-            product_category="electronics", product_price=25.00, quantity=2, payment_method="upi"
+            timestamp=self.now - datetime.timedelta(days=2),
+            user_id=2,
+            product_id=102,
+            product_name="Mouse",
+            product_category="electronics",
+            product_price=25.00,
+            quantity=2,
+            payment_method="upi"
         )
         self.sample_record_valid_3 = create_purchase_record(
-            timestamp=self.now - datetime.timedelta(days=3), user_id=1, product_id=103, product_name="Keyboard",
-            product_category="electronics", product_price=75.00, quantity=1, payment_method="wallet"
+            timestamp=self.now - datetime.timedelta(days=3),
+            user_id=1,
+            product_id=103,
+            product_name="Keyboard",
+            product_category="electronics",
+            product_price=75.00,
+            quantity=1,
+            payment_method="wallet"
         )
         self.sample_record_valid_4_women_clothing = create_purchase_record(
-            timestamp=self.now - datetime.timedelta(days=4), user_id=3, product_id=201, product_name="Dress",
-            product_category="women", product_price=150.00, quantity=1, payment_method="credit card"
+            timestamp=self.now - datetime.timedelta(days=4),
+            user_id=3,
+            product_id=201,
+            product_name="Dress",
+            product_category="women",
+            product_price=150.00,
+            quantity=1,
+            payment_method="credit card"
         )
         self.sample_record_valid_5_men_clothing = create_purchase_record(
-            timestamp=self.now - datetime.timedelta(days=5), user_id=2, product_id=202, product_name="Shirt",
-            product_category="men", product_price=50.00, quantity=3, payment_method="upi"
+            timestamp=self.now - datetime.timedelta(days=5),
+            user_id=2,
+            product_id=202,
+            product_name="Shirt",
+            product_category="men",
+            product_price=50.00,
+            quantity=3,
+            payment_method="upi"
         )
 
     def test_clean_data_valid(self):

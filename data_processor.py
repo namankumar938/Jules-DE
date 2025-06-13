@@ -15,34 +15,36 @@ def clean_data(raw_data: list[dict]) -> list[dict]:
         # Missing Value Handling
         if 'product_price' not in record or record['product_price'] is None or \
            'quantity' not in record or record['quantity'] is None:
-            print(f"Warning: Missing essential fields (product_price or quantity) in record: {record}. Skipping.")
+            msg = (
+                f"Warning: Missing essential fields (product_price or quantity) "
+                f"in record: {record}. Skipping."
+            )
+            print(msg)
             continue
 
         # Data Type Conversion
         try:
             record['product_price'] = float(record['product_price'])
         except ValueError:
-            print(f"Warning: Invalid product_price format in record: {record}. Skipping.")
+            msg = (
+                f"Warning: Invalid product_price format in record: {record}. "
+                f"Skipping."
+            )
+            print(msg)
             continue
 
         try:
             record['quantity'] = int(record['quantity'])
         except ValueError:
-            print(f"Warning: Invalid quantity format in record: {record}. Skipping.")
+            msg = (
+                f"Warning: Invalid quantity format in record: {record}. "
+                f"Skipping."
+            )
+            print(msg)
             continue
 
-        # Assuming timestamp is already a datetime object as per our generator.
-        # If it could be a string, conversion would be needed here:
-        # if isinstance(record['timestamp'], str):
-        #     try:
-        #         record['timestamp'] = datetime.datetime.fromisoformat(record['timestamp']) # Or appropriate format
-        #     except ValueError:
-        #         print(f"Warning: Invalid timestamp format in record: {record}. Skipping.")
-        #         continue
-        # elif not isinstance(record['timestamp'], datetime.datetime):
-        #     print(f"Warning: Invalid timestamp type in record: {record}. Skipping.")
-        #     continue
-
+        # Timestamps are expected as datetime objects from the generator.
+        # No specific string conversion is handled here.
 
         cleaned_data.append(record)
     return cleaned_data
@@ -63,9 +65,17 @@ def transform_data(cleaned_data: list[dict]) -> list[dict]:
             record['total_purchase_value'] = record['product_price'] * record['quantity']
             transformed_data.append(record)
         except KeyError as e:
-            print(f"Error during transformation: Missing key {e} in record {record}. Skipping.")
+            msg = (
+                f"Error during transformation: Missing key {e} in record {record}. "
+                f"Skipping."
+            )
+            print(msg)
         except TypeError as e:
-            print(f"Error during transformation: Type error {e} for record {record}. Skipping.")
+            msg = (
+                f"Error during transformation: Type error {e} for record {record}. "
+                f"Skipping."
+            )
+            print(msg)
 
     return transformed_data
 

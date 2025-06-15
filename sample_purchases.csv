@@ -1,0 +1,8 @@
+event_timestamp,user_id,order_id,product_id,product_name,category,price,quantity,payment_method
+2023-10-26T10:00:00Z,user123,order001,prodA,Laptop,electronics,1200.00,1,credit_card
+2023-10-26T10:05:00Z,user456,order002,prodB,T-shirt,men,25.00,2,upi
+2023-10-26T10:06:00Z,user123,order003,prodC,Coffee Maker,home,75.50,1,wallet
+2023-10-26T10:10:00Z,user789,order004,prodD,Jeans,women,60.00,1,credit_card
+2023-10-26T10:15:00Z,user456,order005,prodE,Toy Car,kids,15.00,3,upi
+2023-10-26T10:15:00Z,user456,order006,prodF,Book,electronics,PRICE_ERROR,1,upi
+2023-10-26T10:16:00Z,user123,order007,prodG,Sneakers,men,90.00,1,credit_card

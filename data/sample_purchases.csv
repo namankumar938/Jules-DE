@@ -1,0 +1,1001 @@
+timestamp,user_id,product_id,product_name,category,price,quantity,payment_method
+2023-11-16 20:54:19,a6e8552f-0d8c-430f-8234-e87464617bdc,P1848,Kid's Toy Car,kids,108.88,4,wallet
+2023-11-27 21:58:55,b74c0e65-2f8d-4751-adaf-d5b161a9d329,P7351,Men's Jeans,men,122.71,2,upi
+2023-01-29 22:10:02,3f1e99c8-1861-44e9-8aa0-d6a9a62b8fc7,P4411,Men's Shoes,men,13.63,2,wallet
+2023-01-01 14:49:05,f710f8c5-520e-40d7-895c-f0ff21082752,P5836,Men's Formal Shirt,men,116.55,5,upi
+2023-11-04 13:53:34,0f86d049-9517-40f5-bfad-6b37c3b486ec,P4135,Kid's Story Book,kids,64.59,5,credit_card
+2023-11-08 19:55:50,bb6eeee7-3194-4a19-82fa-7ede4452a1d6,P7997,Women's Sandals,women,48.68,2,upi
+2023-04-11 07:53:30,6412ac9b-02e7-4f63-8761-f8b2aef0286f,P6131,Kid's Onesie,kids,15.53,1,upi
+2023-10-24 10:12:54,8870ae56-884c-4f9d-b041-bfc01c9f6571,P3635,Women's Handbag,women,88.62,4,upi
+2023-10-09 17:17:35,5640a584-99c4-484c-b894-7cd7a4dd4bb1,P4940,Men's Shoes,men,169.59,4,upi
+2023-08-21 22:26:12,b1da578c-f859-4614-b0fa-583cbc41cbea,P7118,Women's Dress,women,93.47,1,upi
+2023-07-24 16:06:16,1c19c1c4-57a3-40d9-9760-e307c999876c,P7843,Men's Shoes,men,192.59,3,upi
+2023-10-08 06:26:33,f7a73d2a-3261-45c6-8044-69315b9d34c0,P8783,Women's Earrings,women,108.18,4,wallet
+2023-05-02 01:42:50,d9b77988-43e8-4fbf-9805-db06005b28b3,P4271,Men's Formal Shirt,men,49.23,4,credit_card
+2023-03-08 01:19:55,2b0ca887-8aad-4f19-a41a-3298f769a282,P5837,Kid's Tricycle,kids,67.72,1,upi
+2023-08-09 04:12:56,9af85f04-2771-484b-bdc0-2cb9e157941b,P7448,Women's Sandals,women,60.13,4,credit_card
+2023-06-09 16:36:20,dc0372a0-eeab-4b91-8b9e-d301eeb83501,P8333,Kid's Building Blocks,kids,11.43,2,upi
+2023-04-26 09:47:09,157a3a80-ceae-49fd-8df9-dacd0e2195a9,P6786,Kid's Onesie,kids,45.8,2,wallet
+2023-05-14 11:06:09,8ae35929-491e-400e-a5d9-aa481c095cb2,P2595,Kid's Toy Car,kids,120.19,4,credit_card
+2023-01-02 18:15:28,34fb2efd-98f6-4284-ad6a-decd80670ecd,P5355,Men's Formal Shirt,men,53.85,5,credit_card
+2023-10-03 23:18:57,fdf92116-54d5-4d01-b6c4-d8bae4d0cc93,P5722,Kid's Building Blocks,kids,99.82,5,upi
+2023-06-27 01:56:55,39e51fae-6684-420d-8d38-b1dc3927dba3,P9957,Kid's Building Blocks,kids,25.82,2,upi
+2023-06-29 16:33:42,6dfa4fd9-c93f-4b83-b3a4-d36a036b67f8,P9627,Women's Sandals,women,6.43,3,upi
+2023-07-03 17:47:39,a6462c45-d345-4004-949a-af3e5c3ad3e3,P9241,Women's Earrings,women,158.07,4,wallet
+2023-01-29 16:12:04,5962317d-9475-4677-b051-293c3214d335,P9535,Men's Shoes,men,164.74,1,wallet
+2023-11-26 12:32:23,55d046bb-31fd-461a-ba9a-f59d4893c556,P1031,Kid's Toy Car,kids,23.33,4,credit_card
+2023-02-26 17:55:13,16a1d91e-c4b6-4630-8a0c-354a8de3dd24,P7488,Kid's Building Blocks,kids,183.67,2,wallet
+2023-11-24 10:55:35,a40d220a-a0ee-4802-8c6f-271d74feed79,P4354,Kid's Toy Car,kids,135.5,2,wallet
+2023-08-05 15:24:54,a424e2bf-3ed0-46b0-8118-6b322182a00b,P3907,Women's Scarf,women,94.89,1,upi
+2023-05-03 07:19:08,a5c67b55-4a8c-4dd0-bfac-e02b06c4900b,P6748,Women's Earrings,women,172.23,2,upi
+2023-04-27 11:11:12,2848e6a5-e085-446b-b26b-75e04854748d,P1800,Kid's Tricycle,kids,139.32,2,wallet
+2023-05-14 13:03:48,e18a66a1-2725-4a92-9f0f-19c6348ece17,P4903,Kid's Toy Car,kids,58.11,4,wallet
+2023-06-13 07:14:00,747b8d71-eccb-49e4-927b-f7d2b1037cc8,P8350,Men's T-Shirt,men,63.74,5,upi
+2023-09-02 22:31:49,67c99679-5e98-416d-86b7-9b20805a20ff,P2740,Men's Jeans,men,98.06,1,credit_card
+2023-01-18 17:19:10,56d8cf0f-02b4-4d21-9719-6b6943aa6e14,P4834,Women's Handbag,women,45.66,2,credit_card
+2023-12-18 22:58:22,a86ce0c6-0427-492d-9030-74181dc8e75d,P9453,Men's Jeans,men,42.95,5,upi
+2023-03-07 02:14:48,73782112-03e5-4b3c-90f1-2078bce5b918,P4938,Men's Formal Shirt,men,167.47,1,credit_card
+2023-04-13 03:27:41,eb1667ff-e606-4099-b7c7-0d615f39682e,P2318,Kid's Tricycle,kids,45.0,2,wallet
+2023-07-19 08:50:52,ca163075-a195-4932-bc18-6d7d2b7c3978,P4281,Men's Watch,men,154.91,2,upi
+2023-07-09 15:19:15,ff0a75b0-a15f-4e08-bd37-67813c7e7d44,P6919,Kid's Tricycle,kids,190.06,1,wallet
+2023-04-09 02:21:34,7b70dc45-fd91-4a87-a97f-97ced244b7c9,P1210,Women's Sandals,women,108.26,5,credit_card
+2023-11-11 15:49:54,ca11cc9f-6fc6-4daf-ae6d-5f4d2ef62a1a,P9872,Women's Handbag,women,9.54,2,wallet
+2023-07-28 11:59:43,eac1ab31-ef8c-4dc0-880b-98690f45b896,P6622,Men's T-Shirt,men,95.87,1,upi
+2023-01-26 03:54:17,6d831533-3593-4fdb-bac7-1899f53cb1b1,P1579,Women's Sandals,women,146.55,5,upi
+2023-06-12 18:36:13,6e83647f-db61-4d92-9600-cb636b724fd6,P6069,Men's Formal Shirt,men,190.77,3,credit_card
+2023-11-21 13:14:20,a610b6d2-a405-4e5d-83fe-dc9f20032600,P9891,Men's Formal Shirt,men,79.33,1,credit_card
+2023-05-23 02:43:23,4d0d5753-7fd6-49c9-a182-d55221d13a34,P9863,Men's Shoes,men,134.97,5,credit_card
+2023-02-03 16:25:20,c07bbc16-a830-479d-ad9d-feae74bdae00,P9813,Women's Earrings,women,188.41,4,credit_card
+2023-03-28 20:42:50,0d82688f-af89-4d39-8812-5f23cf7bf1b2,P5079,Kid's Tricycle,kids,195.23,2,wallet
+2023-08-19 12:24:47,6eae094d-670d-47d6-8d48-aa2a2b28a7b9,P1538,Men's T-Shirt,men,73.33,4,wallet
+2023-10-06 14:08:47,55a328ff-d864-46e3-b313-5ad2e719a774,P2821,Kid's Onesie,kids,162.98,2,upi
+2023-11-27 02:55:06,529c3aed-5fb0-4628-a04f-df3b2cff11e7,P2316,Women's Handbag,women,159.88,4,upi
+2023-07-17 08:15:00,10cea235-c543-43cb-8654-cb2e37bde396,P1955,Kid's Toy Car,kids,162.61,2,upi
+2023-07-27 21:19:44,b4c51766-45f1-44eb-a4fc-d0cf0a43573c,P3449,Kid's Onesie,kids,99.41,1,upi
+2023-02-06 00:18:54,0b5e6622-4d6a-402b-8409-13da92d77a79,P3402,Men's Watch,men,158.76,1,upi
+2023-05-31 06:14:39,b7226b35-2d83-4d7f-bf3f-5c42d527fdd4,P6598,Men's Formal Shirt,men,72.88,2,wallet
+2023-01-14 14:56:07,1e4f4b5a-da75-444b-b527-fd9c5d4553ca,P3329,Men's Shoes,men,184.01,4,upi
+2023-07-31 17:11:22,6e906928-5ad4-4737-a62d-0d132df50be7,P2382,Women's Sandals,women,88.15,2,credit_card
+2023-02-17 12:06:59,4b3455fe-e0ac-4ecc-8c02-fa1765f8dd38,P7260,Women's Earrings,women,149.73,1,upi
+2023-11-22 03:54:33,f0e1b8b8-3da1-48e6-acd6-31d0de7a17b5,P1839,Kid's Tricycle,kids,189.03,3,wallet
+2023-06-28 09:53:00,1d02f384-3348-4e39-ba9e-36971b23e70f,P2521,Men's Watch,men,148.85,2,wallet
+2023-05-07 01:06:48,32a44aa9-5a87-442c-b24e-0233e5811abc,P7053,Men's Shoes,men,119.09,2,credit_card
+2023-05-25 22:33:30,1e2dff6a-3cac-4b7f-bd31-dcb6a615749e,P9494,Kid's Onesie,kids,113.26,2,credit_card
+2023-03-24 08:12:26,828ed99f-7422-4d17-93f0-42a2830e148e,P5029,Women's Dress,women,176.15,2,credit_card
+2023-10-18 10:08:23,ceecb1a3-a37b-48f9-8ae1-f7e867e46278,P2435,Kid's Toy Car,kids,24.63,3,upi
+2023-06-19 21:36:59,a4f36067-7eb1-4e56-b796-2d0fac519910,P7590,Women's Handbag,women,146.4,1,credit_card
+2023-06-04 02:17:02,b7bf6b4b-67a9-4c57-b42c-e28408d20793,P1007,Kid's Story Book,kids,153.65,4,upi
+2023-01-12 02:02:00,4abd99b6-95d3-4839-806b-4ddc04afbf58,P4922,Women's Scarf,women,48.31,4,wallet
+2023-10-18 09:08:28,a7ee46e7-fad4-4e5e-ac08-a17368651e9e,P8007,Men's Jeans,men,71.7,2,upi
+2023-09-10 09:28:39,ace06d09-491c-471a-830a-dee01ae1f813,P3889,Men's Jeans,men,195.13,4,upi
+2023-05-13 11:15:37,fb4710f6-8fad-4418-947c-1681a4e96689,P5987,Women's Earrings,women,11.9,1,wallet
+2023-04-25 09:12:35,0e1d0c5b-dbb1-4575-b8bf-103dfe419dd5,P7742,Women's Scarf,women,167.92,4,credit_card
+2023-02-11 06:57:50,edf0dfc7-7a23-4867-9ed9-6841f7287099,P6670,Kid's Tricycle,kids,154.43,1,credit_card
+2023-10-06 12:21:16,0af17efa-26f1-4ddc-b46d-a9565d0239eb,P5444,Kid's Toy Car,kids,125.29,1,credit_card
+2023-07-01 02:35:38,f0aa6dae-1335-4c4a-a5f1-89b62499d6bb,P7222,Kid's Building Blocks,kids,178.12,4,upi
+2023-05-27 04:44:41,bef625ed-2431-47c9-ae20-97879a83ae2f,P9656,Women's Handbag,women,6.52,4,upi
+2023-02-16 17:20:17,64e5fe55-f011-4fb0-9189-d28160cb288d,P2593,Kid's Tricycle,kids,127.85,2,credit_card
+2023-09-08 20:48:00,358226d0-3521-4e99-9f0c-74bda648e25d,P4053,Kid's Building Blocks,kids,134.33,3,upi
+2023-05-17 17:11:37,e98bf1be-1e08-4641-816e-d01bfdfa2f83,P9936,Men's Formal Shirt,men,136.28,2,credit_card
+2023-01-26 19:06:20,4919c4d3-1d5e-4b34-9a1e-020ee4fb931a,P7839,Kid's Tricycle,kids,30.11,4,wallet
+2023-07-09 09:45:51,b54bf8f5-24af-4471-aacf-cc412e4b7f58,P4485,Women's Scarf,women,139.09,4,upi
+2023-01-19 21:47:17,1ef90b5d-ef5c-42ff-994a-6a940ee87d3d,P9072,Women's Sandals,women,125.88,3,upi
+2023-06-15 10:04:40,6ba8a8d3-9dc3-4d1d-bead-5d70951e23c5,P3357,Women's Handbag,women,124.75,2,wallet
+2023-01-07 12:42:22,e0d992d8-6cb1-4d6e-b2bc-d10ba3b6eaeb,P8638,Women's Handbag,women,67.99,3,credit_card
+2023-10-29 08:49:01,82d9ad8c-8788-44bb-93a4-f18374ab4db4,P1188,Kid's Building Blocks,kids,80.0,4,credit_card
+2023-11-20 05:28:25,0e606259-a17f-4810-aa95-4db4b4808be3,P5501,Kid's Story Book,kids,45.12,3,upi
+2023-09-02 09:16:00,a3200822-1544-4f85-b80f-a1dbf618ebb9,P4025,Kid's Onesie,kids,141.03,3,upi
+2023-11-06 14:22:47,e1dd2f49-b986-45ab-b051-21063048e827,P1162,Women's Handbag,women,127.62,5,wallet
+2023-05-02 17:29:41,94233fdf-d345-40ec-845a-2108d3e89778,P4626,Men's Watch,men,18.81,2,credit_card
+2023-04-24 05:42:06,99c533de-0e33-4c6c-8ee8-aaa376a31463,P6653,Men's Jeans,men,81.03,4,credit_card
+2023-08-07 18:27:34,9950df83-1940-4eb6-9672-3d39750806d7,P6793,Men's T-Shirt,men,77.65,4,upi
+2023-01-15 12:52:52,263be035-d129-40f3-b073-8110aa40dba0,P1455,Men's Formal Shirt,men,56.83,3,wallet
+2023-08-08 16:24:54,0f15abca-7ccc-4197-80ea-b4dc5b86a464,P4353,Men's T-Shirt,men,102.83,4,upi
+2023-11-08 19:02:37,01f88156-6ecc-45eb-90c9-00549af8b9d8,P6574,Men's Formal Shirt,men,92.41,2,upi
+2023-11-10 05:25:23,96e166ed-2321-405e-a659-94630df01fe6,P3711,Women's Sandals,women,154.1,4,wallet
+2023-10-20 23:22:10,6410a732-4f61-4d93-ac35-66a8502128ef,P4703,Men's Formal Shirt,men,115.3,3,credit_card
+2023-02-12 15:30:01,73bbe1b5-a46b-4480-b115-1a3cd4050116,P8875,Kid's Story Book,kids,31.77,4,wallet
+2023-03-12 04:53:06,7d1be973-06b6-41e4-8d1a-a767d84abbe1,P7941,Kid's Tricycle,kids,140.32,3,wallet
+2023-04-28 14:54:58,6d80bf64-04b8-48f5-9e56-65fddeeab93a,P9172,Kid's Toy Car,kids,34.03,5,credit_card
+2023-05-04 05:38:27,7854202e-3822-49e8-bda6-209b57f1806e,P9413,Women's Sandals,women,116.81,1,wallet
+2023-08-20 15:01:17,72810ec1-51dc-4159-887e-685af8122f93,P7028,Women's Sandals,women,14.38,5,credit_card
+2023-02-28 20:22:53,211a1b4f-1921-4e41-947f-268a458e3994,P4430,Kid's Onesie,kids,49.98,2,credit_card
+2023-04-22 08:54:15,8f95c827-0c35-4217-8d85-bcc5f2ba48ed,P2537,Women's Earrings,women,58.13,5,wallet
+2023-02-10 06:42:16,43afe893-86dc-4fcc-b808-ce847942df22,P3521,Women's Sandals,women,69.94,1,upi
+2023-09-02 06:26:17,f05e883c-fe5f-4513-8809-f66eaeb0455e,P5849,Men's Jeans,men,27.74,1,credit_card
+2023-09-16 05:19:13,10815d56-9971-4419-a626-aab473a56589,P1656,Kid's Building Blocks,kids,141.79,5,upi
+2023-02-20 17:15:19,3498259f-aae4-4477-8930-ce2c416fd51e,P2313,Kid's Building Blocks,kids,95.47,4,wallet
+2023-11-16 17:30:26,06249e42-cfb0-4342-9a4a-267db3b8672a,P5907,Men's Formal Shirt,men,135.81,2,upi
+2023-10-06 04:10:04,3db451e8-59c8-4a04-8472-04eb33c1b117,P7936,Women's Handbag,women,69.07,2,credit_card
+2023-11-10 10:53:19,d905e4d1-827f-4904-9fb4-c6968e198adb,P5730,Men's Watch,men,123.88,1,wallet
+2023-03-04 15:46:20,5709ccf6-47eb-41cc-ae67-151d7d023c1b,P8102,Women's Handbag,women,42.65,5,credit_card
+2023-12-07 05:30:29,f6a8901d-11dd-4f40-bb6c-f0caeedf7ffc,P8176,Women's Dress,women,89.26,1,credit_card
+2023-06-10 14:48:18,9fa2de39-2c0f-4079-b3e0-ee04b6baf122,P9864,Women's Dress,women,90.7,5,wallet
+2023-07-15 05:18:47,ca87b7fb-d464-444b-8cf2-a557ee6caa7c,P6004,Kid's Tricycle,kids,113.98,4,credit_card
+2023-03-23 13:30:46,6391f6d7-2bda-4061-9ab9-ec7d911e7af3,P3247,Kid's Onesie,kids,32.39,5,credit_card
+2023-08-27 07:15:30,9981afa4-67d8-4864-8f81-9614b0ae71c4,P9671,Men's Jeans,men,117.25,1,credit_card
+2023-03-05 18:20:53,e54e40df-557a-44f4-b474-7bb39d58722b,P2250,Men's T-Shirt,men,44.31,4,upi
+2023-04-23 12:11:07,9a768f32-955b-41dd-945f-fc52f55ba1f5,P1677,Women's Earrings,women,165.47,1,credit_card
+2023-07-23 09:19:41,e9ae374a-1eb0-4d86-9c5e-3b352a1059a2,P9821,Men's Formal Shirt,men,96.95,2,wallet
+2023-09-19 13:40:27,c90bf0df-be92-4200-8324-2e7022169528,P9472,Men's Jeans,men,16.37,1,upi
+2023-10-05 03:58:03,841fe184-ff3b-4551-bf1b-c9f716158ac9,P9798,Men's T-Shirt,men,149.08,1,upi
+2023-09-25 07:13:53,1bf7ff5c-3d22-48e5-b8bc-c4d0cca89458,P2773,Women's Earrings,women,34.17,1,wallet
+2023-09-18 06:10:04,d1e03cb4-0679-42c9-b3cb-096b0960d7be,P6901,Kid's Tricycle,kids,63.37,4,upi
+2023-01-16 04:33:27,8ffb8b73-f8e6-4567-bd5d-77d93b8f4779,P2508,Men's Jeans,men,142.24,4,wallet
+2023-04-15 16:51:42,6554a9c7-c38e-4756-bdb4-a336d2b723fb,P7567,Kid's Building Blocks,kids,70.52,2,wallet
+2023-09-02 08:15:08,dbc57234-9db4-46a7-a1b0-f6c6182ed5ba,P8194,Women's Handbag,women,23.95,5,wallet
+2023-08-22 10:43:10,8306e85a-1b1c-4e4f-ba1b-0e569062b918,P1524,Kid's Toy Car,kids,134.99,4,wallet
+2023-08-28 07:05:05,c352ef84-4037-4fea-95f7-8d3a80e58452,P5069,Women's Scarf,women,82.27,3,credit_card
+2023-04-07 07:12:34,e7a4b62b-30d5-4da8-ad4d-853bab292aa7,P2113,Men's Watch,men,173.86,2,wallet
+2023-01-10 10:46:37,4f54a13f-e424-4c48-95d8-2f278e61d5bf,P8571,Men's Jeans,men,94.59,5,wallet
+2023-08-06 15:23:04,998448ad-72a2-4600-b563-820f3efe90f8,P6664,Women's Scarf,women,153.16,2,upi
+2023-05-19 20:14:38,fe89f37d-6a3f-4419-b7b4-1257950f9b38,P5740,Kid's Tricycle,kids,55.16,2,credit_card
+2023-03-18 23:50:57,12ae51f7-5b24-44e1-b5d1-c8cd5cb5d32a,P1534,Men's Formal Shirt,men,84.54,2,credit_card
+2023-11-11 01:13:48,6f5b516b-7dcc-4b1b-8969-0d4283c66d67,P7939,Women's Sandals,women,76.81,3,credit_card
+2023-07-30 07:53:37,51847b03-a7e5-43a4-94da-e1763e5aed1b,P3983,Women's Earrings,women,181.39,5,upi
+2023-06-22 03:14:26,c7a5ab4e-1821-4dc1-821e-17ff6b559e1a,P7952,Kid's Building Blocks,kids,169.4,3,upi
+2023-12-03 07:48:01,d739180f-86f9-424b-a23e-123c9acf9606,P4605,Men's Formal Shirt,men,166.41,4,upi
+2023-10-02 18:11:10,f5e719e5-80cf-44e8-a6ea-410d4595bf37,P3695,Women's Scarf,women,127.27,2,wallet
+2023-06-30 05:20:06,304ad3b8-aca3-4abd-b877-4e9380aeedc8,P9225,Men's T-Shirt,men,186.09,3,credit_card
+2023-07-18 21:32:24,499214b6-5b64-4446-ab27-50ab40f92983,P7679,Men's Watch,men,48.43,2,upi
+2023-11-04 11:40:53,e75cb963-b143-4499-8137-09a29edb9650,P7188,Women's Dress,women,197.8,3,wallet
+2023-05-20 14:34:12,61ed97b1-0d60-4082-b877-a71ac0ba7402,P8147,Kid's Building Blocks,kids,111.6,2,credit_card
+2023-05-03 05:35:39,ac7a597d-39cf-4005-9c3c-82cbbf628d73,P4652,Men's Shoes,men,161.8,5,upi
+2023-02-26 19:34:22,a518778f-0ed1-4600-858c-24e0d6abd410,P7210,Men's Watch,men,108.67,1,wallet
+2023-01-28 03:38:46,e22a8554-f9a0-4d69-b178-a7695293134a,P7174,Women's Scarf,women,92.1,2,credit_card
+2023-06-20 03:42:46,b10141c4-e40f-4cdd-b8e6-48f16961f1ad,P6697,Kid's Story Book,kids,37.31,5,wallet
+2023-11-16 14:00:25,6bbb1a3b-81c9-418c-bebc-d680cf743b01,P9199,Kid's Toy Car,kids,8.93,1,credit_card
+2023-08-11 07:27:11,f5c95386-2c69-4ae0-a66e-573ec616e62f,P4660,Men's Jeans,men,46.87,4,wallet
+2023-05-02 13:52:15,2d998e3e-c70f-475a-923d-4a0f6f379a0b,P5832,Kid's Onesie,kids,24.89,4,wallet
+2023-03-04 21:14:18,5ab4ecff-739f-4a24-b324-ffca5ab0aa6e,P4084,Women's Handbag,women,199.29,5,wallet
+2023-11-08 14:28:52,d45fe2ad-f68d-4521-b203-e83bb397278e,P7444,Men's T-Shirt,men,14.85,4,wallet
+2023-07-05 09:59:27,7af8c076-f346-48b7-9f0e-2fc324a29ac1,P2773,Men's Formal Shirt,men,15.89,2,upi
+2023-12-06 15:01:48,293204bc-367d-4db6-ac0f-91dbd6919b44,P4291,Women's Scarf,women,109.89,5,wallet
+2023-06-06 13:22:10,c67a000b-01e9-4d37-8321-6169c53b7c4d,P1137,Women's Sandals,women,184.08,4,wallet
+2023-09-19 00:20:39,91a92814-c4ef-4a07-8e30-eeeabde16283,P4090,Women's Handbag,women,168.03,3,wallet
+2023-06-21 18:52:19,61e95074-0a59-4f36-83e1-cec7ababa48c,P1724,Women's Dress,women,122.29,5,upi
+2023-06-17 00:10:31,5a0b8777-eb0e-4cc0-bbea-8761a72a06a2,P6429,Women's Scarf,women,103.42,4,credit_card
+2023-02-12 16:37:51,0a30bf1a-faca-47d9-850b-855a58e5c909,P3221,Kid's Onesie,kids,127.12,3,wallet
+2023-09-16 20:51:04,5889554e-15c1-4a22-9299-5e76ef66fba1,P1103,Kid's Toy Car,kids,110.37,3,credit_card
+2023-10-06 18:11:09,3e5f4824-6e7c-4fd3-ba9e-f7cce06a08b7,P6438,Kid's Toy Car,kids,72.9,1,wallet
+2023-07-16 09:05:33,7ecddf48-b690-4255-b266-b5c86eae8a79,P9468,Kid's Story Book,kids,162.51,4,wallet
+2023-01-18 01:17:19,93543554-2982-4ad6-adc7-32640765af92,P1332,Women's Earrings,women,79.58,4,credit_card
+2023-07-26 02:30:44,02e4459c-311c-4d66-81be-4c1486c9bdbf,P1479,Women's Dress,women,112.31,2,credit_card
+2023-12-19 15:27:06,ec2ad465-fb54-4963-aec6-b35b80fa406b,P7695,Women's Sandals,women,117.56,4,wallet
+2023-05-10 15:39:28,bece0297-9e76-4ef3-907a-eebe4c76861a,P6687,Women's Scarf,women,36.26,3,wallet
+2023-10-18 22:02:01,017d67ff-f426-4bcf-ba82-9dc107cbecb5,P1500,Kid's Tricycle,kids,193.01,5,credit_card
+2023-01-02 14:54:37,b4ae9475-8b91-4440-a919-375c1f860152,P9998,Women's Dress,women,19.23,4,credit_card
+2023-05-18 03:26:30,70df35e6-29da-45ea-ba19-b521441dbc65,P6410,Women's Scarf,women,161.07,1,credit_card
+2023-01-29 12:41:56,ff347e53-949b-4830-a6b2-c3b4195494d4,P4555,Women's Handbag,women,130.36,4,upi
+2023-06-22 02:28:00,affe21b4-e755-4bff-944f-8dc2c9896fdd,P2062,Women's Scarf,women,10.21,5,upi
+2023-05-12 02:45:19,305e9504-d820-4370-ad4c-48582c08c526,P4946,Kid's Toy Car,kids,173.58,5,credit_card
+2023-05-20 19:41:03,ad06ad70-6c14-4022-aa90-a8715fee59c5,P7370,Women's Handbag,women,26.12,2,credit_card
+2023-08-26 16:10:49,64e77a5d-6fb7-4db0-b5de-e57135184488,P8192,Women's Handbag,women,21.08,2,credit_card
+2023-10-05 07:24:23,9e797ae5-b39b-4a4c-984d-825be9ded4c0,P7203,Kid's Story Book,kids,172.28,3,wallet
+2023-09-20 15:51:36,12032085-a2b1-488b-9deb-b7dca949a241,P9503,Men's Watch,men,57.4,1,wallet
+2023-12-18 16:04:01,96b85e59-eba4-43a0-acd0-ea4b24a9c74a,P4328,Women's Sandals,women,142.03,1,wallet
+2023-04-11 07:56:08,9cd9ef46-29f5-4fd4-9ae7-ba0718262af5,P1790,Women's Handbag,women,149.85,3,credit_card
+2023-03-31 21:28:14,9b5aaffc-8b17-4a24-b74a-9b9b15445be0,P3641,Kid's Tricycle,kids,110.02,5,credit_card
+2023-01-12 13:10:14,eee49569-056c-4e20-a20e-6ac8d3ab1c5d,P2718,Women's Sandals,women,198.15,5,upi
+2023-05-26 11:38:35,44835b62-ed7e-4479-9261-85ac2dbf92b3,P9290,Kid's Toy Car,kids,181.42,2,upi
+2023-04-20 12:26:24,8c02836f-59db-4429-ac3b-a42ccaea7de9,P7439,Men's Jeans,men,27.27,2,upi
+2023-09-07 09:45:06,9a681f05-0e52-4e68-b5f4-23f3761fb881,P2355,Kid's Tricycle,kids,184.94,3,wallet
+2023-03-15 05:24:59,557334b6-17d2-42ea-a1cd-323e9c96a22b,P3173,Kid's Story Book,kids,99.85,2,wallet
+2023-12-06 12:43:23,52d6dc2b-f61a-40d9-8bc7-ce25dd7a4144,P6067,Kid's Tricycle,kids,55.09,2,wallet
+2023-04-04 03:13:09,4a1736b5-3507-4a4a-a27c-42fa54fb308a,P5113,Women's Sandals,women,50.0,2,upi
+2023-02-07 09:22:04,7067fd72-4e41-4909-abd5-d011be919e2c,P9111,Kid's Tricycle,kids,86.97,4,wallet
+2023-12-08 01:19:00,530ca71e-4027-4978-a5bb-97c3203bd262,P1590,Kid's Tricycle,kids,54.7,1,upi
+2023-09-13 14:50:46,b0b9cf58-1a2c-42af-bfdb-6d7a18772f08,P1837,Men's T-Shirt,men,116.59,2,credit_card
+2023-11-24 14:21:16,6ba71393-db45-4bf9-94af-cf568fa779bc,P7307,Women's Dress,women,28.6,1,wallet
+2023-01-10 11:35:37,e2f477d4-0308-429b-bd18-56cbf59ec991,P4733,Men's Watch,men,51.37,4,credit_card
+2023-10-07 01:27:38,f9df852d-9021-4fa9-9d95-f4cbde097b44,P5502,Kid's Onesie,kids,160.29,5,upi
+2023-08-20 23:29:54,e0175f9a-9ca5-4865-91c2-26762ed7eaff,P1885,Men's Shoes,men,183.04,1,upi
+2023-01-26 21:26:42,d67142d9-a0b5-4825-afe0-fc938ef06aaf,P5932,Women's Dress,women,188.39,3,credit_card
+2023-12-20 17:40:48,c1d51b7d-affb-416b-acc3-9d00ba69b061,P9860,Women's Earrings,women,153.33,4,wallet
+2023-01-09 09:32:19,5855d61b-37c7-415c-8be7-1e00513db44c,P7442,Women's Sandals,women,37.74,1,credit_card
+2023-02-05 17:42:03,2d68f202-ee8e-48f9-b0e1-9b42eb47cf39,P5675,Women's Scarf,women,39.97,5,credit_card
+2023-05-05 11:32:55,d8de0b8b-5da1-41ff-8ff4-6b53f716d52f,P9106,Women's Earrings,women,22.74,4,credit_card
+2023-09-06 22:58:12,0ffc3ef9-9e32-4cf5-a6fa-a2918164b65d,P4433,Kid's Toy Car,kids,85.1,1,wallet
+2023-09-25 03:53:56,9ea3fefc-0c12-4107-8b69-d798948861d0,P3169,Women's Dress,women,72.8,1,wallet
+2023-04-02 00:08:05,be557163-9565-44d3-acdb-c1dfeb48c94b,P4040,Women's Earrings,women,22.98,1,wallet
+2023-11-05 20:31:13,f18779c6-0c31-42a3-9d0b-efd39941b12b,P7034,Men's Formal Shirt,men,68.86,5,credit_card
+2023-11-13 04:08:40,951692d9-a2da-4a0a-959f-b0c8d43df008,P1172,Women's Handbag,women,185.27,4,wallet
+2023-08-20 19:51:00,e1cc55b1-4693-4a28-b3f6-3a74074e984b,P9718,Men's Formal Shirt,men,171.35,3,wallet
+2023-03-14 02:56:23,9685df74-5924-4098-8058-1629e2624313,P8056,Kid's Toy Car,kids,168.16,5,credit_card
+2023-06-27 22:01:40,59d5bdca-2b64-4d53-bad1-38e3d7a43c1f,P9240,Men's T-Shirt,men,83.24,4,upi
+2023-10-21 15:38:59,78624103-7fa0-4f0a-b2b6-107e40b75e11,P3418,Men's Watch,men,22.36,3,credit_card
+2023-09-29 15:50:12,94c1427e-3315-48d5-9df9-354010705194,P5135,Kid's Toy Car,kids,167.06,2,upi
+2023-01-21 11:10:03,28525281-04c4-4467-85cb-e55b5403bf66,P5508,Women's Dress,women,13.44,5,upi
+2023-03-03 13:18:43,e61154b2-57e1-4cfa-a2b4-840f057260c1,P2904,Kid's Building Blocks,kids,96.05,2,upi
+2023-09-19 15:08:51,6d6c1d77-5990-4536-904f-b67874e86253,P9407,Women's Sandals,women,92.35,1,credit_card
+2023-06-09 04:31:50,6a726320-6aff-4159-9fc0-6f45428e3127,P7435,Men's T-Shirt,men,198.72,4,upi
+2023-03-04 19:59:23,ede2c6da-c78d-43a3-a36c-90611f1e3a27,P4882,Men's Formal Shirt,men,173.11,3,upi
+2023-09-27 18:44:30,f3a4b74c-b57c-4375-a63e-28c4faef35ae,P2267,Men's Jeans,men,148.55,1,upi
+2023-07-11 06:44:39,9eff5e65-98fd-4ac5-bb24-f88b6057da8b,P8192,Women's Dress,women,133.22,3,wallet
+2023-03-06 05:16:58,dd83cfcd-a071-4f9a-8dc5-68a994e5806a,P8212,Kid's Onesie,kids,126.81,5,upi
+2023-12-22 21:37:43,0d2292c6-a0e9-4916-94c7-1d6d6a514c76,P1783,Women's Sandals,women,21.84,5,credit_card
+2023-06-13 05:27:59,11c4a404-48c8-4baa-941f-fdb75dc01b4a,P8174,Kid's Story Book,kids,34.04,3,credit_card
+2023-06-15 09:36:33,21216c4e-7287-4f5a-8f7a-ac29fb6c5593,P4296,Women's Handbag,women,36.65,2,upi
+2023-01-02 13:57:49,3d486d70-e4cf-49cb-a4c9-56aec4845000,P5081,Women's Dress,women,137.28,1,credit_card
+2023-02-05 01:20:42,4d3a0e9b-4483-40d2-ae57-1a32f58ca2fe,P1632,Women's Scarf,women,133.61,5,upi
+2023-08-28 17:31:50,7ee087f4-e1e7-4753-a208-e6e75f15fcce,P4634,Kid's Story Book,kids,13.58,3,credit_card
+2023-01-12 16:11:06,1fdc74ea-f8e6-4639-b8f5-a667afde3ceb,P8932,Women's Sandals,women,153.88,5,upi
+2023-10-31 04:28:40,5d27f203-e59c-41dc-a0c7-216939585e79,P4073,Men's Formal Shirt,men,96.46,2,upi
+2023-08-18 08:17:56,cfd9c85e-34ce-45a1-8b5c-16dce0583726,P4434,Kid's Story Book,kids,27.92,1,upi
+2023-11-26 22:50:43,0c766609-0ab7-49f2-b857-3c75412bca95,P8268,Women's Scarf,women,150.88,3,wallet
+2023-11-02 08:04:56,2883bc86-6d40-4596-a09f-9f96685a6ad6,P9102,Men's Shoes,men,22.12,2,wallet
+2023-04-20 16:05:52,43113e82-3211-4d55-9bef-3be8b40cc99d,P1633,Women's Earrings,women,6.76,4,credit_card
+2023-10-05 23:52:41,19341a1a-ca6f-4966-8afc-424b2b4a3f19,P6256,Men's T-Shirt,men,106.63,5,wallet
+2023-06-15 00:03:29,ffecbce9-f835-43e8-94dc-8ca7788b6ecc,P2385,Men's Formal Shirt,men,134.71,2,upi
+2023-03-19 04:41:27,631a89b6-e6cc-4574-9670-a4b8f5d91616,P5444,Kid's Story Book,kids,18.91,1,credit_card
+2023-07-02 03:30:35,ce54ab48-381a-4ff6-94d5-c35569ed66d6,P4289,Women's Dress,women,119.96,3,wallet
+2023-02-21 00:54:04,e7b6b75b-57fe-40d2-9135-5f012280efc1,P4967,Women's Dress,women,141.98,3,upi
+2023-09-20 07:10:16,7151048f-386c-4a13-9b0e-1e1904442bdf,P2341,Men's Formal Shirt,men,187.03,1,credit_card
+2023-12-01 06:22:04,9c83b9e6-7ba6-4f41-8349-98d3033cc04e,P5958,Men's Watch,men,198.21,5,credit_card
+2023-06-13 02:21:46,b875dab8-c718-4802-ac43-fbd0c0da2b16,P8702,Men's Jeans,men,40.12,4,upi
+2023-02-11 17:03:20,eb7229e5-887d-42c5-a3ae-8428f1a14c27,P9754,Women's Handbag,women,156.67,1,wallet
+2023-10-26 02:34:03,10ed75eb-5268-4882-b060-545af2ca7a7f,P1557,Kid's Building Blocks,kids,88.11,4,wallet
+2023-04-28 04:17:22,d5ff66f1-ca14-4c5b-8967-849227ea7c72,P7844,Men's Jeans,men,140.97,5,upi
+2023-04-03 01:48:30,18b4e3a0-dc17-4e8f-a89f-0ee442d6ab96,P6862,Women's Handbag,women,55.82,4,upi
+2023-12-12 12:15:35,5e553909-5fd3-4fa0-a9ea-6ec5309019bb,P9037,Men's Jeans,men,110.01,5,credit_card
+2023-12-16 15:51:49,def351a9-25dc-4bf4-bc4d-a9e9946df3fa,P7493,Kid's Tricycle,kids,122.06,2,upi
+2023-08-17 18:39:35,ea671887-4780-4039-b961-70b4d8a576cd,P3889,Men's Shoes,men,72.05,2,credit_card
+2023-08-30 04:57:18,323a89b8-4c10-4fd3-b44b-92a84a4c6b9b,P4402,Women's Earrings,women,36.91,4,upi
+2023-11-09 12:57:03,dbdb2ea2-ed38-4bc5-bf2e-fbdf0add7e13,P1370,Women's Handbag,women,140.03,3,credit_card
+2023-02-20 03:57:27,768b469b-19d0-48e0-ad93-081ebca48563,P6026,Kid's Story Book,kids,83.58,3,wallet
+2023-04-17 15:58:37,86a2489d-b9bb-414a-b9d6-a4ad3b722924,P2657,Men's Shoes,men,105.2,5,wallet
+2023-07-26 07:38:04,db829bf7-5b0b-4080-a654-1376dd8273ff,P1495,Women's Scarf,women,87.22,3,credit_card
+2023-10-30 23:56:53,989d9f6f-3e83-49ae-af91-ae59350f596b,P9124,Kid's Onesie,kids,11.79,4,credit_card
+2023-12-15 12:37:10,7cef401b-aaee-48e3-8457-9542b96e77ae,P2618,Kid's Toy Car,kids,110.19,4,credit_card
+2023-05-23 15:06:27,827041e3-5d3a-4dd6-8cd5-0811ef5a9a47,P7641,Kid's Onesie,kids,28.69,4,wallet
+2023-02-07 14:12:58,d2d1c64d-e4a8-46c8-b504-261fb8e033b2,P2720,Men's Jeans,men,56.2,3,credit_card
+2023-12-05 01:23:47,728783cb-dfad-4037-a2aa-a6ab4d511576,P7576,Women's Dress,women,131.46,1,credit_card
+2023-09-03 03:22:51,b0fddeec-a65b-4aa3-aad2-1eea58e8e375,P8501,Kid's Tricycle,kids,156.41,2,credit_card
+2023-07-06 20:10:51,931400c8-8469-4fb5-bacd-05097756ea62,P1262,Women's Sandals,women,144.87,1,upi
+2023-05-21 02:25:02,df24dd72-3115-4241-949f-c33abbd661a7,P4364,Kid's Building Blocks,kids,189.53,4,wallet
+2023-04-06 11:22:56,a7a4977b-c748-4e12-9024-48b3a94ca468,P4868,Women's Dress,women,118.38,4,credit_card
+2023-12-22 18:29:58,57f65e74-b592-47ab-b375-1309b6f83e7c,P6234,Kid's Building Blocks,kids,155.86,2,credit_card
+2023-12-24 14:13:31,c7372b62-ba05-47ab-9e83-ba4b6a06cbd3,P6654,Women's Sandals,women,5.7,1,credit_card
+2023-02-17 13:29:48,698c6a8b-369e-4f5a-92bc-e21e8d46182c,P8100,Women's Sandals,women,144.74,5,credit_card
+2023-11-07 09:59:10,b45c5d65-6f3a-4379-ba0c-63bb752cb748,P4533,Women's Sandals,women,134.34,1,upi
+2023-03-18 18:19:15,e4fb0131-f45a-4516-843f-9ed5f165e150,P1350,Kid's Tricycle,kids,146.19,2,upi
+2023-11-08 17:25:30,8ba1ff36-145d-4ada-a7d5-7e1d1de0c0b8,P6296,Men's Formal Shirt,men,19.23,2,credit_card
+2023-04-18 00:54:25,228f09c9-c69f-43e9-8d06-f00d3183a3ca,P8176,Men's Watch,men,175.77,1,upi
+2023-01-27 18:14:23,e8a8177f-1206-49a3-a933-12c22ba2f428,P1147,Men's Shoes,men,109.96,4,upi
+2023-07-27 03:40:51,2241c8e3-ce24-4057-b16f-0ab63f8879b9,P8286,Kid's Tricycle,kids,41.44,1,upi
+2023-12-17 16:24:55,132acb87-3108-4975-b110-dd4bc19d5df1,P4608,Women's Handbag,women,94.42,3,credit_card
+2023-01-28 14:15:33,ff218ca9-c940-40af-8207-5b011d50f634,P5142,Men's T-Shirt,men,181.24,3,credit_card
+2023-09-10 03:22:45,00c87294-10fe-43d1-a0d9-f6c232c7ca05,P1006,Kid's Toy Car,kids,58.05,1,wallet
+2023-04-16 07:39:07,5807d96e-7d3a-4f0d-94c3-2b048191dca0,P5257,Women's Sandals,women,33.56,4,wallet
+2023-05-30 08:46:11,ac7febdb-7c03-4288-9cb5-206777bf4751,P5779,Women's Handbag,women,160.95,1,wallet
+2023-09-14 09:49:41,9dd62058-f651-4f97-88df-0e4663b9c24c,P2285,Kid's Tricycle,kids,176.29,4,credit_card
+2023-04-09 22:16:17,4df01260-6c58-4659-b1c9-17bdca871bca,P9383,Kid's Onesie,kids,164.46,5,credit_card
+2023-07-20 00:29:54,20afc280-f8b9-472f-a3a4-c190da9c0c2c,P9296,Kid's Story Book,kids,135.57,5,credit_card
+2023-01-16 19:32:29,9e3d2cd4-b73c-40ad-bf12-b1908804921a,P5241,Kid's Tricycle,kids,40.82,5,upi
+2023-12-27 03:47:06,5a93a55a-7164-468f-971a-06e11b97bf83,P6105,Men's Shoes,men,178.77,1,credit_card
+2023-03-05 07:32:33,ed3ae73c-1c50-4138-8a3d-75a586e2a071,P1152,Men's T-Shirt,men,104.94,1,upi
+2023-12-30 08:04:49,9b25c2fb-88ed-4f6f-8156-946191e10fce,P6675,Women's Sandals,women,104.08,3,credit_card
+2023-01-28 00:08:24,d32730a6-0b89-4e3e-8af7-6f014f965076,P9880,Men's Shoes,men,138.77,5,upi
+2023-05-23 12:19:19,0579913c-0188-4350-91bf-8004d82bb595,P5607,Women's Sandals,women,64.08,5,wallet
+2023-04-07 22:34:15,e0c6e92a-9459-455a-b218-3412159564b3,P2349,Women's Sandals,women,41.37,4,wallet
+2023-10-22 00:14:10,aca0d46f-b42f-4a6a-b8b4-702556f84358,P2522,Men's T-Shirt,men,76.6,4,wallet
+2023-11-28 05:50:46,53c96ab2-0632-42f3-9cba-a15de8c55f84,P3204,Men's Jeans,men,74.72,5,wallet
+2023-01-16 14:21:49,260e07e8-9441-4672-b9d4-1cf7b5b1c3fc,P7581,Women's Sandals,women,50.54,2,wallet
+2023-03-22 15:21:50,8d587aa2-cb0e-472d-826e-4a3077703065,P4574,Men's Formal Shirt,men,54.4,3,credit_card
+2023-01-18 05:37:03,f7da9fcb-16bc-4e99-8c97-001f8970bd9c,P7233,Kid's Onesie,kids,87.76,4,wallet
+2023-05-20 04:25:57,28caca78-1816-44e2-8390-d2a8f1b941df,P7504,Kid's Onesie,kids,155.1,4,credit_card
+2023-12-16 10:21:48,229c97f7-6ef3-4caa-8f27-ca5ac9a1d46e,P9330,Women's Dress,women,80.81,5,upi
+2023-07-03 14:41:54,e724c822-c3d8-4ecd-81e2-53433071a921,P6886,Kid's Tricycle,kids,131.5,2,wallet
+2023-10-09 22:15:22,c9d78eb9-d474-4405-a07c-24262e5e330e,P6582,Kid's Building Blocks,kids,172.45,1,wallet
+2023-12-10 15:00:14,391f6b89-d04b-44d7-b225-bffc05b4f23b,P5996,Women's Sandals,women,141.54,3,credit_card
+2023-12-31 17:40:34,c7ae2c25-b884-4a9f-81d4-f4fab90b112a,P2481,Men's Jeans,men,40.67,2,wallet
+2023-03-19 07:58:28,8bd452e9-357b-4821-8fbd-02c6e7c0968c,P9407,Kid's Building Blocks,kids,69.11,2,upi
+2023-03-25 19:29:39,acf97b13-495b-4286-8fab-7ac314c07d23,P7296,Men's Jeans,men,197.87,5,upi
+2023-03-03 19:56:17,b1f0b28c-a0a3-4eb6-b66c-7a679eea5e63,P3373,Men's T-Shirt,men,101.17,4,upi
+2023-04-05 19:18:52,8e85491c-058f-40f1-bef0-f4e88db50461,P8515,Women's Handbag,women,71.93,3,wallet
+2023-02-18 14:56:12,9d2c93a7-981e-412a-976f-2597134950e9,P1830,Men's Watch,men,110.6,1,upi
+2023-08-07 22:53:30,61a1e59f-6ee6-487f-97c8-99824a054640,P7909,Kid's Onesie,kids,36.55,1,credit_card
+2023-06-27 19:20:13,7243d0a8-ffc8-4bcb-8e10-2c6a841afff6,P5814,Men's Jeans,men,55.33,5,credit_card
+2023-12-07 19:05:02,b0421c0c-3a92-4d4b-8ba0-318abaf1b6fb,P9053,Men's Formal Shirt,men,94.22,2,upi
+2023-08-30 17:29:26,e6fa6a24-521b-4bdd-b955-e558efe5fe42,P6734,Men's Watch,men,186.7,2,upi
+2023-01-08 01:02:27,39030cb0-9811-453f-8567-1d5ba272019a,P6000,Men's Jeans,men,154.43,4,upi
+2023-09-08 22:05:28,ed60f887-0720-4d33-b185-e0d3e540094e,P1866,Kid's Tricycle,kids,173.77,5,upi
+2023-08-23 04:12:54,a0d6bab6-6bda-46e9-8012-8a5f33ebbb75,P9448,Kid's Tricycle,kids,122.28,3,credit_card
+2023-03-02 05:22:19,41da2074-08de-4013-a26b-c2a501d02485,P4510,Men's T-Shirt,men,166.39,4,upi
+2023-10-24 21:11:07,876c16cf-237d-473b-9190-156664ad3bd6,P8043,Men's Formal Shirt,men,169.09,1,upi
+2023-04-04 05:30:23,d9436ab4-3b54-4d15-98d1-37cd7a3a4ed1,P1753,Men's Shoes,men,97.58,1,wallet
+2023-07-22 20:29:40,173109f2-dc9b-4104-ba0e-28da5000c1b9,P7834,Kid's Toy Car,kids,107.14,4,upi
+2023-10-23 06:27:11,7103f512-0d30-4b98-b27d-7587609eca30,P9023,Men's T-Shirt,men,17.05,3,upi
+2023-02-03 07:25:46,4dbf2061-3ba8-4af8-8cb3-9ca4013b6f23,P2259,Kid's Tricycle,kids,174.9,3,credit_card
+2023-01-12 09:59:45,d5d038fe-87fa-4bee-a823-5392c97ace90,P3177,Kid's Building Blocks,kids,8.96,4,upi
+2023-06-30 22:47:26,1d7743f5-6f18-413d-85a1-a759f839efce,P6173,Kid's Toy Car,kids,35.48,2,upi
+2023-04-15 17:53:03,a4cc3df5-6d83-445c-bdac-02f6239fc16c,P2564,Women's Handbag,women,46.01,3,wallet
+2023-06-02 12:46:21,38b4be77-722c-47a3-93b8-8da6c3175472,P2245,Men's Jeans,men,124.54,2,upi
+2023-04-25 18:26:55,ef9643c2-efb9-4b2c-82ba-935d785cd7cf,P7508,Women's Scarf,women,40.7,1,wallet
+2023-03-30 06:55:48,0c4dfc31-5662-4781-97b3-0fefbae1023b,P7542,Kid's Toy Car,kids,40.0,4,upi
+2023-09-24 10:16:09,c73872ed-3fc0-4548-b32e-c059b419efc2,P1290,Women's Handbag,women,147.31,5,wallet
+2023-08-30 06:46:20,1d3ae8eb-aff1-427a-bfcb-e9b44316a85c,P8372,Men's Shoes,men,68.33,5,credit_card
+2023-12-21 22:02:24,3428f0c5-f4ee-48fd-96e9-4528b2dc87ee,P2612,Men's T-Shirt,men,103.05,1,wallet
+2023-03-10 13:02:35,7173b69c-6dd2-4d78-8f6c-618ff0c46124,P4948,Kid's Building Blocks,kids,74.3,2,wallet
+2023-05-05 20:29:17,be68fa19-a071-4701-9448-f107cf28793a,P7311,Kid's Onesie,kids,82.93,2,upi
+2023-11-08 06:49:26,e5191d37-8b44-4016-b6c6-bda4a0138093,P7943,Kid's Tricycle,kids,86.62,2,upi
+2023-05-18 02:13:38,1bba64e1-dbdf-4d54-8569-1d2e9009ce56,P6280,Women's Scarf,women,175.84,3,upi
+2023-05-20 07:24:40,65a3b370-9405-462a-8c76-3931794dd018,P7152,Kid's Building Blocks,kids,103.94,4,upi
+2023-05-16 17:50:04,c3fa6a03-27e0-4a31-95b5-9815bcd72def,P5837,Kid's Toy Car,kids,79.49,2,wallet
+2023-03-04 18:19:41,7bbdd47d-e7a8-4b4a-8feb-ba569fa17d59,P9560,Kid's Tricycle,kids,70.1,2,upi
+2023-09-21 05:05:30,8a1fc362-aabd-456c-b477-29823462cb04,P4540,Women's Sandals,women,79.79,4,wallet
+2023-06-03 21:38:57,0f91f3d9-b831-43c8-ad27-087d64537f1b,P6425,Men's Jeans,men,94.12,1,upi
+2023-08-25 13:48:33,7a686296-7076-4121-ba18-f0d6439a58bd,P4328,Men's Jeans,men,124.24,1,wallet
+2023-06-04 22:00:09,74a45d39-a285-4446-a9a9-5c024bd574b9,P6605,Men's Jeans,men,42.52,3,credit_card
+2023-10-27 16:55:22,37498849-f94a-43cd-9a23-21152935dc59,P2871,Women's Handbag,women,47.48,2,upi
+2023-01-25 15:56:45,6e6e8884-6132-451c-8cb2-fad4f736524a,P4623,Kid's Toy Car,kids,145.3,4,upi
+2023-08-22 19:12:33,5b46bc66-8e2f-4507-afa4-4ddbec17355d,P1001,Men's Shoes,men,59.9,5,credit_card
+2023-02-14 17:21:13,0d750bf3-ac60-4f52-8605-a070500e7dbf,P4291,Kid's Building Blocks,kids,126.18,4,upi
+2023-06-27 23:00:20,073b0e8f-a662-41bf-bd63-db758b4bdd82,P3802,Kid's Building Blocks,kids,76.62,2,credit_card
+2023-05-07 17:06:45,b5631729-18dc-4479-88fe-90d7f3a795f9,P6531,Women's Sandals,women,8.32,5,credit_card
+2023-04-18 00:42:19,27b1ee1a-407d-4095-9de4-c258523df837,P1383,Kid's Story Book,kids,84.29,2,wallet
+2023-09-10 07:24:42,461ed462-5fa9-4a4f-b351-c07715784f92,P2703,Women's Earrings,women,175.7,1,wallet
+2023-02-01 06:17:20,4267762b-8bfb-44b6-a326-391fd9a2abee,P5446,Women's Dress,women,95.5,3,wallet
+2023-11-25 23:47:30,2a4f0ec7-9a80-4095-84a1-f111c9d8d52a,P6870,Men's Formal Shirt,men,121.5,1,upi
+2023-11-13 04:56:23,b7b8ff8d-263d-4362-8f93-53e936272128,P8019,Men's Formal Shirt,men,175.47,4,wallet
+2023-03-03 10:23:59,93b7d6a0-65df-4e9b-9dfa-5c9c87ccaa63,P6391,Kid's Building Blocks,kids,114.85,2,credit_card
+2023-08-21 01:18:44,41804cae-2901-4008-a9a2-a85259e92c7b,P7019,Men's Shoes,men,181.25,4,wallet
+2023-06-13 01:16:11,0192c2e1-3749-4136-84a3-4b37b151dd47,P9621,Women's Sandals,women,105.2,4,credit_card
+2023-01-01 19:28:23,ef25069e-88b5-4146-a6c4-f5b50b637b0d,P8540,Men's Watch,men,85.86,5,upi
+2023-03-01 00:46:12,2bc3a0db-01a6-4cf6-9778-4d7176129ec1,P1884,Kid's Onesie,kids,66.89,5,upi
+2023-07-08 03:24:30,e5db5dc3-2938-4c3f-b043-552de0548ce3,P8673,Women's Dress,women,16.64,4,wallet
+2023-08-30 02:53:31,74075705-b61e-4164-99e6-be652639ffe5,P2121,Men's Formal Shirt,men,77.38,2,credit_card
+2023-01-28 17:44:35,fd690526-1950-4d95-a342-27812f6b0a9f,P3197,Kid's Toy Car,kids,64.76,5,credit_card
+2023-03-25 16:25:43,41babbc0-42e5-4a47-ad29-6e31392d1c17,P3069,Women's Scarf,women,193.36,1,wallet
+2023-11-10 08:35:45,039b5cb7-f519-48ef-9929-fe90b1f95706,P6481,Kid's Story Book,kids,199.16,5,credit_card
+2023-01-02 05:10:06,4c9eb6df-a33c-42f1-acd3-12bc5631c84c,P6189,Women's Handbag,women,26.92,3,upi
+2023-07-18 18:20:14,6f08030c-fa0f-4c92-940c-c9bca773b0fc,P2658,Men's Jeans,men,190.09,5,upi
+2023-02-05 10:52:32,e309f348-e663-4be3-aa8b-f304f961d68a,P1151,Kid's Tricycle,kids,79.52,1,wallet
+2023-02-08 11:43:41,faa52be9-9a1c-4473-9f79-15e4c2d165da,P8280,Women's Dress,women,165.09,1,credit_card
+2023-01-06 05:52:52,ced64337-7a32-4e57-91be-acde954b65d4,P1697,Men's Shoes,men,171.68,3,upi
+2023-04-02 22:02:47,1c3175ca-cb90-454a-8060-a3b2015fee01,P8727,Kid's Toy Car,kids,136.49,3,upi
+2023-07-29 12:51:29,459a6e6a-3dc0-47f9-bb7a-b892c8d1dc78,P2776,Kid's Building Blocks,kids,113.69,5,credit_card
+2023-03-28 05:34:50,7feed260-718a-4515-90d9-3353db69b1cf,P9354,Men's Jeans,men,77.11,2,wallet
+2023-11-25 11:23:30,3c28c580-917b-44a9-80e2-2805184934ed,P2613,Men's Shoes,men,123.82,2,wallet
+2023-11-06 05:40:03,127d5915-151c-4aa7-8854-a9225d63abdc,P4451,Women's Sandals,women,180.35,3,credit_card
+2023-05-11 04:45:33,6ff64657-807f-4802-ab24-e3a8cd5e4f83,P2218,Kid's Story Book,kids,118.46,5,wallet
+2023-07-17 20:10:41,c1222ad3-2104-4151-a452-fb4888b2c4ce,P1155,Kid's Onesie,kids,111.58,2,credit_card
+2023-09-20 05:53:56,c37dfc9c-4ced-48b1-bbe2-033057f77dd2,P2163,Women's Sandals,women,97.25,2,wallet
+2023-10-29 02:55:50,a3055a11-56a7-409d-9b2b-728ab14be05f,P7055,Women's Earrings,women,56.02,5,credit_card
+2023-05-11 22:18:10,23d2f524-45cb-4672-819a-b4b31f7d1816,P8062,Kid's Tricycle,kids,107.3,4,upi
+2023-08-01 19:21:25,e91b6203-9597-4934-a73c-c0f4bc6c4966,P1819,Kid's Building Blocks,kids,184.04,5,credit_card
+2023-08-24 01:03:10,410ca773-a0d1-4129-b4d9-0e1c76fc7d3f,P4048,Women's Earrings,women,52.56,1,credit_card
+2023-10-28 09:18:30,50e8e832-ecd3-4c84-8dd6-c0ae85de1ad2,P6120,Women's Scarf,women,127.93,5,credit_card
+2023-02-23 01:40:18,a1f98806-1182-497d-b847-16b850fc948e,P5490,Women's Handbag,women,92.03,2,wallet
+2023-06-06 00:47:39,c55a5ee7-beba-42d0-9da3-7bf4dd52e5bd,P5703,Women's Sandals,women,115.11,2,upi
+2023-05-09 02:07:30,97a19a9a-7753-45ac-97f8-a77fc1e9b72c,P8756,Women's Dress,women,71.37,2,upi
+2023-09-09 04:56:40,4ebfdbf6-879a-42ca-81a0-beae0c5f903a,P7658,Men's T-Shirt,men,75.35,2,upi
+2023-02-07 17:00:20,d9b2eb51-5ae7-48e0-9735-a2f0f1a730a3,P5258,Women's Earrings,women,125.7,2,wallet
+2023-05-22 17:16:28,11012280-15f3-495a-b666-c922dbb1fa91,P2542,Women's Scarf,women,14.6,3,upi
+2023-05-22 10:34:19,07928336-9c4b-4605-8035-19b7ea3d6d9a,P6223,Men's Jeans,men,164.49,2,credit_card
+2023-10-27 03:25:35,59c8c9c7-16d6-4196-85d8-fe4aa9396440,P3723,Men's Formal Shirt,men,51.21,2,wallet
+2023-06-24 22:04:19,3bee3dab-db3b-4e6b-b950-c65c946f8f7c,P4570,Kid's Story Book,kids,134.96,1,credit_card
+2023-01-13 06:44:58,4fecf878-c4f2-4983-afbd-6d2897d26d4c,P4930,Men's Watch,men,192.86,1,wallet
+2023-08-06 02:14:26,ba6fab48-41d9-405c-8ae8-dccd0484e5f9,P4043,Women's Scarf,women,155.21,1,upi
+2023-04-23 15:53:07,2c0a243e-06da-4b33-b60b-d32951800489,P6684,Kid's Toy Car,kids,43.61,4,wallet
+2023-01-01 18:18:41,3f2c5d1a-90cb-4c0c-9f74-8c7b8081d121,P4266,Women's Sandals,women,105.5,1,credit_card
+2023-08-07 05:35:00,d8be72b5-09ba-4f66-b6fc-3cb52a2034bc,P8581,Kid's Story Book,kids,24.45,3,credit_card
+2023-08-24 23:23:39,2e89f2c1-d043-461f-9581-de0b57c1166f,P6452,Women's Dress,women,86.23,1,upi
+2023-06-11 20:58:50,c2a92c4f-4f54-4803-aab9-dfd491741213,P7232,Women's Scarf,women,56.16,2,credit_card
+2023-02-01 19:44:54,403bbbf2-4a6d-4ed7-80d8-97f1aaff216e,P4869,Men's Formal Shirt,men,21.74,1,credit_card
+2023-03-08 02:39:47,46f070be-698d-4ecb-8bb0-49a82a27b03a,P7273,Kid's Onesie,kids,30.19,2,upi
+2023-04-18 12:35:35,2ac1bb8e-5d6c-4bee-b15c-2879c7e6101d,P8515,Women's Scarf,women,52.54,2,upi
+2023-07-03 02:34:21,d5d1ca82-0962-4b9c-b05c-029105a4c17e,P9134,Kid's Onesie,kids,139.58,2,wallet
+2023-12-10 19:51:31,d6883c1e-2b88-48f8-ba86-ff60d7d5632a,P6242,Kid's Building Blocks,kids,177.95,1,wallet
+2023-09-14 10:03:27,5ca4ade9-dcef-4176-93bc-d5382c0c83fb,P5994,Women's Dress,women,54.27,2,upi
+2023-08-17 12:09:11,a2a1dd16-f88f-4739-b8d5-bbf0bdc2333d,P5602,Men's Jeans,men,75.32,1,wallet
+2023-10-20 19:16:34,8e7e2848-b74e-427e-808e-2680137c1ddf,P1092,Kid's Onesie,kids,142.44,3,upi
+2023-07-27 07:30:53,fb2d2ec3-58e3-4d26-b347-f657ac86faa1,P3027,Women's Earrings,women,165.1,3,upi
+2023-06-13 02:59:08,3aa47337-5808-4ba0-abdc-6dbd2fb5f9a2,P2398,Women's Dress,women,172.47,1,credit_card
+2023-05-04 10:13:45,a0f5806e-2624-4cbd-9622-0f852089ab55,P3780,Kid's Onesie,kids,136.73,4,upi
+2023-12-24 03:51:42,5d961dbd-34c5-4e62-acee-14249f3e0520,P1241,Kid's Story Book,kids,113.67,3,wallet
+2023-01-18 03:38:27,da28f121-d644-41b8-9934-586871e19b88,P7683,Kid's Building Blocks,kids,186.59,2,wallet
+2023-01-14 22:04:32,91dd62f2-c2de-433c-bb13-e5848dfe33a2,P4371,Women's Scarf,women,125.46,2,credit_card
+2023-04-12 19:58:49,94839628-3a70-4d49-a8f9-ce946dceff5d,P5370,Women's Dress,women,129.0,1,upi
+2023-03-14 14:49:41,aec4c288-f3f0-4753-9a9d-9ac6ea8127b5,P2819,Men's T-Shirt,men,99.65,1,wallet
+2023-09-18 19:03:54,8e17cf3c-e0e6-44b2-b1d5-981d73c905cb,P5830,Men's Shoes,men,41.75,5,credit_card
+2023-02-26 10:52:52,09689123-9115-47b4-8067-ff5d949af1ac,P5909,Women's Scarf,women,199.29,5,upi
+2023-09-08 09:49:42,6e264ff6-e3e5-4f07-926d-b14b090366cc,P5583,Kid's Toy Car,kids,103.88,4,upi
+2023-05-12 20:54:57,0f6b7325-e7f4-4a14-bea6-29cdb3230b4a,P2873,Men's T-Shirt,men,192.67,2,wallet
+2023-07-06 01:17:23,989bf5bb-e58c-448f-a814-49a1fc94ef9f,P4140,Kid's Toy Car,kids,199.13,2,credit_card
+2023-07-01 22:55:30,f564fd2d-21c7-4ea0-b0ee-f789f3409d39,P2184,Women's Scarf,women,102.72,3,upi
+2023-12-02 03:55:45,184e850b-0770-4df8-a007-9ad9d2737920,P7157,Kid's Story Book,kids,12.48,4,credit_card
+2023-05-10 12:48:29,ea6ea8dc-26a8-4e2e-9a58-9f0f3e344145,P5956,Men's Shoes,men,96.62,2,credit_card
+2023-10-01 09:00:50,47881a62-9abd-4681-81a7-96a2a23f2ed6,P9333,Women's Earrings,women,87.16,4,wallet
+2023-01-15 11:29:16,31e42a3e-9805-4b84-ae34-bf61800cddb1,P7076,Men's T-Shirt,men,142.2,4,credit_card
+2023-12-04 00:46:20,a80cd411-a2f6-4129-a41a-c8b93b040ffc,P9011,Kid's Toy Car,kids,15.3,4,credit_card
+2023-03-25 16:34:55,f65baaa1-855a-4a1d-863b-2bfc36c287dc,P2160,Kid's Onesie,kids,142.07,1,credit_card
+2023-08-01 14:22:11,8426f36c-4678-46dc-b92d-a00b0f7a8fd7,P8155,Men's Watch,men,36.09,2,upi
+2023-02-22 10:59:34,10ca3690-4d75-4d8f-a32f-d11efa6efbab,P6158,Women's Scarf,women,125.58,4,credit_card
+2023-02-19 21:15:30,6cad5c15-f397-4443-ba60-d3d1389b4e5b,P4464,Men's Jeans,men,79.62,4,upi
+2023-03-19 14:41:44,3864e910-9dcd-4c09-9d86-8344726da373,P9190,Kid's Building Blocks,kids,41.12,1,upi
+2023-05-20 17:17:46,7bae71df-864c-4497-b89b-d5c6939d1cbd,P9766,Women's Earrings,women,102.05,4,wallet
+2023-07-31 20:44:58,eea9621d-c669-475f-a55a-07ed04ee2bae,P7710,Men's Watch,men,103.34,4,wallet
+2023-09-29 15:13:26,c5a41626-f8ad-4c85-8ea2-421f3268de60,P5457,Kid's Building Blocks,kids,36.73,1,credit_card
+2023-04-12 19:48:47,4354067c-923e-4b26-9593-b5b65780bdef,P2837,Kid's Toy Car,kids,11.11,1,credit_card
+2023-04-11 13:03:12,13d4c877-3e41-41b9-bd7f-eb4d57a236d7,P9420,Kid's Onesie,kids,37.26,1,credit_card
+2023-08-23 20:49:27,6c63889c-10e4-4f0f-9f95-62f7d4e47de2,P1901,Women's Handbag,women,85.17,1,credit_card
+2023-09-19 11:34:57,3a1aa05c-cc24-4ff5-9cd5-3a92269d055c,P2847,Women's Dress,women,42.99,3,wallet
+2023-01-01 14:02:58,c61dc540-9b09-4121-8e77-b8f769253650,P4558,Men's Watch,men,183.99,5,wallet
+2023-01-31 03:15:25,aacc2add-8308-42bd-a201-5a9874387ccf,P3379,Women's Dress,women,147.95,1,wallet
+2023-01-29 02:12:34,2fc41cc9-ec47-4a0b-9d31-3495305dff9b,P3964,Women's Earrings,women,125.07,2,credit_card
+2023-02-03 03:02:26,c3705bff-3d20-4a2f-99e2-4ac79fc52c5c,P5621,Women's Earrings,women,79.24,5,wallet
+2023-07-18 17:54:30,46ec4a5a-b8c3-4185-91a3-fe3e017756fb,P2516,Women's Earrings,women,63.56,1,upi
+2023-10-03 03:26:29,434eb59d-61a5-48ec-9edc-c85bcb5c8ced,P1400,Women's Earrings,women,136.35,1,credit_card
+2023-10-13 09:26:41,880ebe04-3bf2-42ac-9d8c-ca425d8c073d,P3428,Women's Scarf,women,44.75,5,wallet
+2023-09-25 02:22:09,3e5b9d6e-710a-4bb4-9da9-aeee85ad60ca,P2798,Kid's Building Blocks,kids,72.2,5,upi
+2023-01-26 06:36:20,f2215f94-d666-40bb-bfdd-81bf1573e7f3,P1755,Men's Shoes,men,167.49,5,wallet
+2023-10-11 17:59:00,d050fb7a-4926-4365-b09f-83ae6c41667f,P2019,Men's Jeans,men,92.04,5,upi
+2023-06-29 02:24:46,8a02ee37-e23b-4560-8ec0-387b1d13f9db,P3313,Kid's Story Book,kids,136.06,4,credit_card
+2023-03-19 18:03:33,17bcf115-eda7-4512-a052-45b2fb056fba,P9361,Men's Watch,men,72.62,5,credit_card
+2023-09-18 07:59:19,e49d3b3d-6ee0-4226-a063-845d66dbe68b,P5316,Men's Formal Shirt,men,181.96,2,credit_card
+2023-03-07 17:10:18,7749c600-0d39-4211-8be2-b6c4a9d42693,P1067,Men's Formal Shirt,men,66.92,1,wallet
+2023-11-17 11:40:16,bffec283-17d2-4805-8090-712c214a0944,P5965,Kid's Toy Car,kids,82.17,2,wallet
+2023-12-13 15:01:49,445f4814-0263-4bf7-834d-d1a365660192,P9904,Kid's Toy Car,kids,188.85,1,credit_card
+2023-01-17 07:51:38,8049fcf5-6f9d-4637-b5a2-1959054ce7ad,P9771,Kid's Toy Car,kids,17.57,4,upi
+2023-01-09 18:33:15,c18a1c62-62f1-4807-94d2-63b0a63629ea,P6463,Women's Dress,women,63.48,4,wallet
+2023-11-14 17:46:32,168e4d93-6139-465e-85b7-d5929621ea69,P6567,Women's Sandals,women,33.9,3,credit_card
+2023-11-12 09:03:05,e6eba780-8707-4e22-9086-3bcbdc62191c,P8042,Men's T-Shirt,men,29.15,3,credit_card
+2023-05-13 15:52:00,1d2ddf50-f903-4f4b-9e69-4dbb126145eb,P4263,Women's Scarf,women,87.83,5,wallet
+2023-07-28 13:05:40,247273e8-8c36-46d4-b5f3-3d7d49e3f3eb,P5189,Men's Watch,men,34.42,2,upi
+2023-07-30 00:48:02,ac9cb122-d679-4a0c-b9bb-101f583ebe7d,P4314,Women's Handbag,women,108.05,2,wallet
+2023-07-23 03:22:57,3a0d1870-4680-4407-a64f-0548dd90407d,P6440,Kid's Toy Car,kids,31.31,3,upi
+2023-01-01 12:21:23,aacdfe33-55c9-488b-85df-a712878c81bb,P6998,Men's Shoes,men,196.42,2,wallet
+2023-12-25 12:48:34,d5458c7d-1f03-4d41-9b57-ed105fd9ed81,P8930,Women's Sandals,women,132.12,5,upi
+2023-12-09 23:26:58,01662090-d254-42ac-b5e0-35e0d05c886f,P7320,Women's Dress,women,37.78,4,credit_card
+2023-12-14 07:17:28,6c693eb0-ca46-4258-958c-79c1dd934884,P9338,Men's Shoes,men,165.45,1,upi
+2023-05-08 10:43:08,b10cb48c-42e5-4ed5-b02d-f6a0138b5280,P1037,Men's Jeans,men,76.89,4,upi
+2023-05-16 03:33:38,3e6adb12-b48e-4189-be5f-1ca7362c40ac,P5301,Women's Dress,women,171.92,2,wallet
+2023-09-09 13:47:28,316a342d-27bf-4458-beb4-55d80e4f0bc1,P2118,Men's Jeans,men,56.6,5,credit_card
+2023-03-14 01:02:32,90ffbb45-2ee6-457b-a87e-f1a312838ed1,P5687,Kid's Toy Car,kids,55.56,1,credit_card
+2023-09-04 08:18:38,0273488a-d41a-4b43-a3b3-b854c9e78f5c,P4664,Kid's Building Blocks,kids,167.64,2,upi
+2023-10-14 12:18:27,22bbd951-d46e-4413-ae33-703728ec10db,P6021,Women's Earrings,women,55.27,2,wallet
+2023-11-20 20:38:57,1e399c4a-b96d-4384-85af-721483516665,P9130,Women's Dress,women,124.17,5,credit_card
+2023-08-23 02:15:18,3350b329-2454-46a4-9488-68558e90bd0d,P3366,Women's Dress,women,133.41,4,credit_card
+2023-12-18 01:54:56,5350bf68-6c9c-4290-92ac-f60edd20b70e,P7984,Women's Dress,women,59.56,1,credit_card
+2023-10-06 16:23:34,a4db312a-4947-496d-ace6-136bfa2e68ee,P3483,Women's Scarf,women,82.14,5,credit_card
+2023-08-22 19:25:43,385c8962-9306-4567-8d26-df451bcf7ca2,P7020,Kid's Toy Car,kids,39.16,3,credit_card
+2023-09-02 16:30:02,4f4ec7ed-c024-4eab-977a-189ebde20eef,P8690,Women's Dress,women,78.07,2,credit_card
+2023-12-06 15:14:09,8a22a2b6-29ae-4c13-84cf-547df0274e5d,P3999,Men's T-Shirt,men,144.82,3,credit_card
+2023-04-04 21:44:59,acd6b7c2-e478-435e-b310-adc9ee933df9,P3858,Kid's Toy Car,kids,149.67,2,wallet
+2023-04-12 08:53:35,2a87baba-3385-446d-92de-3d91d7506352,P1395,Kid's Onesie,kids,96.36,4,wallet
+2023-12-25 11:40:18,f78e4d92-6df7-476e-9760-e4a9f4478bec,P3426,Men's Shoes,men,72.95,1,wallet
+2023-12-09 00:53:47,5ebc2258-f713-4835-9e37-b1ce9f7468a5,P9430,Men's Watch,men,17.72,1,credit_card
+2023-02-25 05:43:50,f4c5749d-ae65-4003-abd9-b960f552fecb,P6809,Men's Watch,men,87.18,4,upi
+2023-06-16 12:01:14,ae74782c-6b2e-4d7d-8b53-583e26b4bad4,P4241,Men's Formal Shirt,men,99.88,2,credit_card
+2023-12-27 01:51:10,160140d6-f896-4b96-ade8-60e44b2466dd,P3809,Kid's Building Blocks,kids,189.5,4,credit_card
+2023-11-07 00:09:34,f0f70e90-01ee-4b5d-86c6-e5024131b7cc,P6398,Men's Shoes,men,115.93,2,upi
+2023-01-28 12:08:47,c55afda9-65f5-45af-87c1-228036058e4e,P5683,Men's Jeans,men,106.91,1,wallet
+2023-10-14 07:23:01,a6149d93-ff76-4a87-9fe2-019f278366c9,P5931,Women's Scarf,women,71.29,4,credit_card
+2023-08-11 21:01:35,9ed2ec36-e91d-43d9-9db6-7ee7156eda83,P1562,Men's Watch,men,182.41,5,credit_card
+2023-11-13 02:41:09,a6d9857b-105f-4c10-a01d-fd2eacab0dd7,P4840,Kid's Building Blocks,kids,160.2,4,upi
+2023-12-10 21:41:04,34061b5d-4d5b-4ece-be7a-5ddddb4dfb4b,P9183,Kid's Toy Car,kids,96.53,1,wallet
+2023-04-04 08:51:04,d9bf7c18-3f5f-46db-b144-776988c47d19,P1633,Women's Handbag,women,17.81,4,wallet
+2023-09-01 22:54:24,f2028596-2e83-4c61-8021-ef22e625608d,P7597,Men's Shoes,men,190.74,3,wallet
+2023-07-14 10:05:27,1b5c5e9f-8358-4e32-9673-a58da9be683d,P2531,Kid's Onesie,kids,157.06,5,credit_card
+2023-12-24 00:45:39,532bc64c-7b85-4bef-9e4a-1c68598edd96,P6358,Men's Jeans,men,101.05,1,wallet
+2023-06-17 08:27:42,cbbd53a4-0e52-4a48-9aab-66bdae40034e,P1409,Women's Dress,women,190.16,4,credit_card
+2023-05-05 02:45:24,e2c623f1-c9b6-4542-876c-bf23262ff6c8,P5143,Women's Earrings,women,66.72,2,credit_card
+2023-05-20 13:34:48,5e1b364f-7257-48b0-bebc-2956ad4fc98d,P3237,Kid's Toy Car,kids,168.51,5,wallet
+2023-12-05 22:59:57,8ef3738c-2ba2-4501-8775-5c92706f6d79,P5315,Kid's Tricycle,kids,176.53,4,credit_card
+2023-07-11 14:49:33,b4739e08-c739-47c4-a9df-f9fde460107a,P6131,Kid's Onesie,kids,34.69,5,upi
+2023-12-22 22:14:33,42bf176b-09c4-4239-826a-bb2b1f5bf20b,P2160,Women's Handbag,women,102.31,3,credit_card
+2023-11-15 03:48:48,12dbbfc7-db3f-4cac-9a3b-0677712f9256,P3967,Men's T-Shirt,men,170.52,5,credit_card
+2023-12-05 23:29:20,ca5ae451-8d7f-48dd-af89-c92cefdb3106,P8520,Kid's Story Book,kids,124.51,2,credit_card
+2023-11-10 12:51:24,b0f99760-7c57-479b-af63-a26eaf87673e,P8878,Kid's Story Book,kids,159.88,3,credit_card
+2023-11-11 23:28:55,dd15bc62-bdb2-47ea-80ab-e02ae62f6b34,P5467,Men's Shoes,men,134.67,3,upi
+2023-07-12 11:29:36,0cdb3d24-5ab6-4965-91d9-12c805806616,P4511,Men's Shoes,men,159.87,5,wallet
+2023-06-18 02:21:19,36d62e10-ae0b-422a-9298-a7e366917b70,P9736,Women's Dress,women,118.87,5,upi
+2023-04-27 18:09:48,9e04d570-cb96-46ee-a5fb-2e4cb31318da,P3575,Women's Handbag,women,104.75,3,credit_card
+2023-11-13 18:52:52,1a405502-4dcb-4c6d-a638-576c2b734ac1,P5341,Men's Shoes,men,81.59,5,wallet
+2023-05-30 18:13:44,182b1475-7f74-4266-b0e9-462ac792949b,P4617,Women's Dress,women,128.22,3,upi
+2023-05-16 18:50:30,2947623f-e1a4-49a1-a1f3-df5a182a9a03,P4657,Men's Watch,men,49.16,3,credit_card
+2023-08-01 07:46:21,e2ed6b13-af21-482f-8ce4-03ef63ef1be2,P8199,Women's Scarf,women,101.62,3,wallet
+2023-05-09 10:06:31,286ccdb5-52de-4c85-9909-02697f2943fa,P3833,Women's Scarf,women,165.05,2,credit_card
+2023-07-08 08:32:14,7b46ba09-752e-481a-9d9a-9cb941d7709d,P5564,Women's Scarf,women,158.84,1,credit_card
+2023-09-01 01:56:50,7e9499cd-eca9-4bad-8e98-0c6b89ae65dd,P9427,Men's Jeans,men,45.78,5,upi
+2023-04-12 21:22:43,a6d5977b-32bd-4c08-a221-0f603dca1be4,P5905,Men's Formal Shirt,men,184.78,4,wallet
+2023-09-06 01:07:42,30b48ad6-389b-4568-b333-98a6e8ef4d44,P5089,Kid's Onesie,kids,171.85,1,wallet
+2023-02-21 02:06:24,15173933-d4be-43e2-bf3a-efc93eefa5c1,P1645,Women's Dress,women,83.26,3,upi
+2023-10-01 21:00:16,233b1305-f2c3-4467-897b-1a113890bb75,P6317,Women's Sandals,women,71.35,1,upi
+2023-03-13 18:22:39,d0461689-4f0e-4087-908f-24367b8d25cb,P4472,Men's Watch,men,109.39,2,wallet
+2023-10-16 17:17:24,ff80c490-eb2a-41b6-b63a-266155a40c7c,P2850,Men's Formal Shirt,men,92.59,5,upi
+2023-02-07 05:22:21,86ea6278-439e-48aa-9c5a-47dee242fae4,P2301,Men's Shoes,men,134.51,3,upi
+2023-06-22 12:21:23,008a6b7b-62ca-4538-ae00-a011c6a35e50,P8489,Women's Scarf,women,180.52,2,credit_card
+2023-01-06 04:07:18,52039d11-2c30-4524-900a-c19bda305568,P3894,Kid's Onesie,kids,156.14,4,upi
+2023-11-24 01:04:46,d6db5d6c-49e1-42ce-896a-7b40fc7ac03a,P2573,Kid's Tricycle,kids,144.65,5,credit_card
+2023-11-19 10:44:48,e9bc616c-a611-4b54-9cd8-0eea4716d32c,P6599,Kid's Building Blocks,kids,14.48,4,upi
+2023-09-30 20:42:32,f1658073-22ba-4b77-80f0-827d5d30089b,P3640,Men's Shoes,men,126.17,3,wallet
+2023-04-10 04:51:30,b0873b66-e892-49d6-9b44-aea232469dd8,P4218,Women's Dress,women,67.2,4,upi
+2023-02-05 00:01:18,d12580eb-426f-4e9a-93b2-79c1afdea49f,P1115,Kid's Tricycle,kids,185.92,1,wallet
+2023-03-29 16:05:15,d3bf6a8a-b193-4895-9ec8-17f31e4a87f7,P2833,Women's Dress,women,88.18,1,credit_card
+2023-03-11 23:11:38,0220c855-2fde-4357-8f83-9e50971cd392,P7911,Women's Handbag,women,119.69,4,credit_card
+2023-04-24 14:18:36,01683295-ae33-4f54-8d7c-0da241e5814c,P2964,Kid's Toy Car,kids,74.28,3,wallet
+2023-03-13 15:35:53,d97305c4-a91f-4e9a-b08d-9d8964f26e9d,P4732,Kid's Onesie,kids,153.99,2,wallet
+2023-04-20 07:52:59,92b3895c-257f-4540-86fa-7086a877957d,P5373,Men's Formal Shirt,men,174.47,1,wallet
+2023-01-31 19:10:52,f2a0348b-d4d2-4aab-976c-a56a1a8f3cc7,P1220,Men's Shoes,men,116.68,4,wallet
+2023-04-24 23:30:02,330e4a05-c5d0-40e1-b815-b62d97e89caa,P3067,Men's Watch,men,30.51,4,wallet
+2023-03-11 12:24:49,dc0bd56d-e325-4f4a-af4d-d7d82d651623,P5443,Men's Shoes,men,147.14,4,upi
+2023-08-02 15:43:16,4e99c58f-57c0-4b85-bf0a-0c09d9c81767,P6523,Kid's Tricycle,kids,9.17,4,wallet
+2023-06-10 06:59:16,fcf458df-a7fb-457c-8d75-c5620bb610ba,P4549,Women's Sandals,women,65.17,3,upi
+2023-08-13 01:09:03,84bad135-adde-4943-ad48-1ebe0fa71331,P2546,Kid's Tricycle,kids,150.37,4,upi
+2023-03-10 19:19:57,3bbada2c-7855-4bd4-9e11-600e7c38c1ad,P5490,Women's Dress,women,56.74,5,upi
+2023-02-20 11:57:01,20101961-2cf0-4e06-9eda-ca93586b0b67,P7581,Men's Jeans,men,20.57,2,upi
+2023-04-08 07:13:13,c7fa694f-2e81-4ad3-8194-bd66b1f69b59,P5626,Men's Jeans,men,69.26,2,credit_card
+2023-12-08 01:23:40,5b07626b-e77d-4309-aadf-81f65cb9978a,P4365,Women's Earrings,women,79.04,5,wallet
+2023-02-10 22:43:43,ed36975b-4596-45d3-878e-49f20e86fd9b,P8296,Women's Sandals,women,111.2,5,wallet
+2023-05-30 09:06:11,4cf00c7b-c721-48d0-bdae-5c24d165574d,P5354,Women's Scarf,women,174.75,1,upi
+2023-09-13 02:41:00,7a950e28-3635-49a1-92de-c4eb52879d8c,P9307,Kid's Toy Car,kids,89.68,3,wallet
+2023-10-25 17:24:23,f61df18a-eda2-4835-b5d5-4172aed5db55,P9068,Women's Sandals,women,160.47,5,credit_card
+2023-02-05 01:42:13,93c56dc1-d7d3-4ce3-a454-1dc507c0ed7a,P6773,Kid's Toy Car,kids,9.42,3,credit_card
+2023-01-17 18:17:58,69491589-f41f-4bc6-b27d-cf5c8d61d6ae,P2385,Kid's Toy Car,kids,197.29,1,upi
+2023-04-21 16:47:04,3d0603e7-8ffe-469f-87c2-5e8b09057b4a,P1586,Kid's Onesie,kids,93.5,5,wallet
+2023-01-13 03:50:03,18523f8c-8107-4143-bb75-f81ea1eb86cc,P3443,Women's Earrings,women,146.19,2,upi
+2023-07-06 05:42:56,8643013d-6b93-4fde-bd8a-5e790a01efe2,P2923,Men's Jeans,men,156.1,1,wallet
+2023-11-23 10:09:20,949e1651-a226-41b2-aacc-c8beeb4c1216,P4278,Women's Scarf,women,125.11,4,upi
+2023-05-04 05:21:21,c12d45f9-0899-4b11-8042-a3130606c012,P4052,Women's Earrings,women,7.58,4,credit_card
+2023-10-17 03:15:27,602a589a-fb44-4ba9-a3db-30020529ddee,P1761,Men's Formal Shirt,men,196.2,2,wallet
+2023-09-14 17:59:49,707b7941-20e9-4b78-b990-bb745faf1abf,P7241,Women's Earrings,women,77.65,1,wallet
+2023-09-10 13:14:20,3c27eaf2-a18f-4895-8461-59fb44a07113,P1473,Women's Sandals,women,8.64,4,wallet
+2023-05-09 08:14:09,e6cb4b3e-0fa8-4145-85b7-c683e8e02261,P6629,Kid's Building Blocks,kids,134.26,5,upi
+2023-06-09 23:17:55,916a82aa-b612-4623-a7a9-c80eef02fc25,P5633,Men's Formal Shirt,men,108.85,4,wallet
+2023-07-14 12:55:28,1f9319db-f073-4554-9749-3818a297cff8,P4792,Women's Earrings,women,169.88,2,upi
+2023-10-27 11:32:26,4ed4a94a-36c5-46bd-95ae-fb7bd90cedd2,P5772,Men's Watch,men,105.92,4,credit_card
+2023-01-09 17:45:05,99bd5915-f545-4b47-8800-6dc78a2e15bf,P1943,Men's Formal Shirt,men,133.44,1,credit_card
+2023-09-29 15:02:06,fbbd73c3-86e3-4952-b375-4b24d7b930c7,P8732,Women's Dress,women,28.66,1,credit_card
+2023-05-13 04:47:08,b40d65a9-669f-4ef6-af91-2875ae7938ea,P3137,Kid's Building Blocks,kids,195.04,3,credit_card
+2023-06-19 14:24:46,53760e5a-ab35-4833-b0ed-764d5f0fee27,P7234,Men's Jeans,men,40.06,1,upi
+2023-01-25 09:23:37,eae76ed7-5467-4c73-965e-c278867045de,P8761,Men's Jeans,men,45.18,4,wallet
+2023-04-23 14:31:55,6766b41e-cc0f-4c26-9694-18215d57989a,P6567,Women's Earrings,women,121.02,3,credit_card
+2023-01-19 15:42:43,af769c27-0304-4aed-b4bb-872a41d8fa75,P7728,Kid's Building Blocks,kids,52.83,1,upi
+2023-05-12 11:45:22,36ba58d3-68bf-4014-9b5d-4af21a75f4c6,P9123,Kid's Toy Car,kids,183.93,4,credit_card
+2023-07-21 16:40:25,38bcd615-4b4c-495e-9e87-1c7527c79553,P8727,Kid's Story Book,kids,65.46,5,credit_card
+2023-06-25 05:41:06,0e755104-4714-4251-833f-75f00e109aeb,P3744,Kid's Onesie,kids,94.78,2,credit_card
+2023-04-23 13:44:46,f3196db1-359c-411f-b922-f8908003a900,P6548,Kid's Tricycle,kids,194.12,2,credit_card
+2023-07-26 06:22:24,fc7e04f1-5863-4015-9dde-78c4a7e997a2,P9958,Women's Earrings,women,88.02,2,credit_card
+2023-04-12 05:43:02,1ca76f85-3acf-4e4b-897b-a3653a8e633f,P6771,Women's Scarf,women,29.06,1,wallet
+2023-01-05 14:06:52,9c8c029c-6e23-4830-8b23-d87ebd55db0a,P7223,Kid's Tricycle,kids,37.51,2,wallet
+2023-04-20 22:08:13,47941f94-9252-46c9-87a5-3dbf80870011,P7763,Kid's Tricycle,kids,54.9,2,upi
+2023-09-05 12:05:06,c55e9106-5346-4742-a8e8-26cdb31807a5,P5015,Men's Jeans,men,165.41,2,upi
+2023-02-04 06:32:39,6ee36619-5214-4287-8681-807a46498aff,P6518,Women's Sandals,women,196.31,5,upi
+2023-10-11 10:00:49,5938cd3d-4921-4bf2-ac7c-245e3d940acb,P9805,Women's Dress,women,115.43,4,upi
+2023-12-30 07:45:29,7db0bc7e-66e4-4ee8-af4b-f97925d2e1f2,P6640,Men's T-Shirt,men,104.56,5,credit_card
+2023-04-07 02:45:07,68866bc5-9d0b-49c3-8f09-83589d2e0aa1,P1261,Men's T-Shirt,men,174.41,1,wallet
+2023-01-12 02:03:55,3924ea4f-4c91-4d1c-83fa-4c4638fb158b,P6828,Kid's Story Book,kids,91.77,4,upi
+2023-01-05 03:43:44,8b11fbba-33f0-4107-bce1-9a418567effb,P8886,Women's Handbag,women,105.24,1,credit_card
+2023-04-08 07:08:22,4b6def0e-b084-4579-85aa-474b38c955ec,P1214,Women's Dress,women,80.83,1,wallet
+2023-08-01 07:46:42,6a5dc716-6137-4f2b-b9c7-114d2c5fc821,P6448,Kid's Tricycle,kids,154.08,2,upi
+2023-09-27 19:18:48,99ccc02c-2e60-4a2e-b52b-17704307bd70,P2369,Kid's Story Book,kids,103.22,3,wallet
+2023-11-04 22:29:36,8595e5ad-aa9c-4628-a86c-15d0f5c8935f,P2358,Men's Jeans,men,42.72,2,credit_card
+2023-06-17 02:24:16,474913b4-fd74-4abc-acbb-e26804d04ad2,P7042,Men's Formal Shirt,men,77.28,4,upi
+2023-07-09 04:27:10,d0ec224d-4666-445c-a31d-66c73207ac8b,P1612,Kid's Toy Car,kids,132.83,5,credit_card
+2023-12-17 06:53:51,6b8b102b-7184-4219-9af2-80be45266bb1,P3059,Kid's Story Book,kids,55.15,3,upi
+2023-11-03 18:49:22,215ffef3-a600-4961-b4d7-6ab1abf24c44,P2870,Women's Scarf,women,128.58,1,upi
+2023-09-13 16:43:08,d2e99b8c-bedd-4a9c-b2f5-0656d21c7bbc,P9246,Kid's Story Book,kids,132.25,2,upi
+2023-10-13 22:26:06,85e460cc-3a54-4759-9ee1-1b0a3b944fdb,P9539,Kid's Onesie,kids,137.94,5,credit_card
+2023-11-11 00:11:05,ef99b177-b929-449d-bb96-e926d11e8280,P4518,Women's Earrings,women,20.34,5,wallet
+2023-06-17 02:09:54,636ec495-678d-4cd4-8793-342210c107a3,P5199,Women's Scarf,women,108.78,2,wallet
+2023-06-28 06:27:06,e9626628-f0d7-4436-a780-95ee974e03a0,P4312,Kid's Tricycle,kids,7.99,1,credit_card
+2023-07-03 03:56:25,20ab46ca-e6fe-48cd-8d93-fc3fb5a87702,P5874,Women's Earrings,women,121.88,4,upi
+2023-05-15 07:22:40,517dbed4-8dc9-4479-973b-49f61a281010,P9015,Kid's Story Book,kids,167.74,2,upi
+2023-10-20 13:49:44,7b5f76e3-4706-46b3-a0f6-1b66d1788f8d,P9382,Kid's Onesie,kids,185.67,1,credit_card
+2023-05-28 23:41:34,e571eab8-0db6-42bb-8982-0b843d1019c7,P6755,Women's Earrings,women,139.05,4,upi
+2023-12-20 09:30:29,7d996e4c-af3b-4356-abf2-8112c3429fe5,P1539,Women's Scarf,women,71.18,2,credit_card
+2023-04-05 22:34:18,2a46ac7a-0aab-43da-8d3b-93c0acfc2abd,P9145,Kid's Tricycle,kids,84.15,2,wallet
+2023-05-02 07:06:26,d384c535-80dc-4e68-adc3-e82bd5d4b00c,P5053,Kid's Building Blocks,kids,69.17,4,wallet
+2023-05-29 19:51:56,e29d93ba-4718-4e7f-8e9f-db074680cfbd,P3867,Kid's Building Blocks,kids,24.66,5,wallet
+2023-02-03 05:32:29,296f1517-a1cf-44ce-bc63-e209b54933a9,P4359,Women's Earrings,women,156.42,5,upi
+2023-09-18 01:19:57,97f2ccb5-173c-4634-a941-3cb738b677b9,P7582,Kid's Building Blocks,kids,167.38,3,upi
+2023-07-02 15:17:17,18bab43d-0546-4649-b781-5a38b49a2ad9,P9936,Women's Sandals,women,57.77,4,upi
+2023-10-24 20:59:32,1ae2a525-2428-499a-9e62-27a487708eee,P5372,Women's Scarf,women,163.04,5,wallet
+2023-08-10 11:28:33,c911f63b-dd3c-4051-be73-204e9b5084de,P8817,Kid's Story Book,kids,92.43,2,wallet
+2023-05-05 19:50:28,dc939c4e-0146-406e-b4bd-1dc0b40cfd4c,P6107,Women's Handbag,women,111.55,4,credit_card
+2023-11-18 17:50:08,f69bf700-626b-4079-839c-df916a44762d,P6817,Women's Handbag,women,84.89,2,upi
+2023-02-19 22:29:25,bed3fe99-c3b1-43e1-b09a-832670624b99,P6792,Men's Watch,men,128.39,2,wallet
+2023-03-05 00:55:18,6012197f-2d8b-46f0-8507-9f0fe739ecc7,P2274,Men's Watch,men,69.68,3,upi
+2023-12-02 19:40:01,fc86ba88-c32e-4003-8d00-451a4800d2a3,P6591,Kid's Onesie,kids,117.4,4,wallet
+2023-03-18 16:44:55,c6517cf4-30b6-42e3-b975-d2f27ef4632b,P8236,Kid's Onesie,kids,27.21,5,upi
+2023-02-05 04:01:28,217dab2e-9500-4409-b70b-9d76db607d91,P8629,Kid's Toy Car,kids,162.63,1,wallet
+2023-12-07 11:17:23,4d18dd65-5bf5-4282-b2b9-375ac417e6bd,P4435,Kid's Onesie,kids,185.43,4,credit_card
+2023-06-02 22:49:23,332679c1-995d-493e-9259-ffd36c966197,P4248,Women's Sandals,women,154.04,5,upi
+2023-07-09 22:53:31,98d2e4ed-e731-43db-865b-e0dce459abd4,P2813,Women's Sandals,women,80.7,3,upi
+2023-04-29 18:43:42,3d64af9c-24f9-4e47-93ff-b178b7d96cde,P2575,Kid's Tricycle,kids,134.01,4,credit_card
+2023-12-23 05:51:21,b05a9aa1-8b5f-4293-9ee6-76dea44a225f,P8820,Men's Watch,men,136.29,2,credit_card
+2023-02-24 23:00:11,9d99d38d-d9cb-46b1-be98-5b8da8d14093,P7975,Kid's Onesie,kids,111.58,2,credit_card
+2023-07-07 19:48:12,59a060df-1d12-4798-83c8-17ca7903c1d5,P1364,Women's Scarf,women,120.15,4,credit_card
+2023-11-03 16:44:32,630f905b-12ff-4a45-a931-87c1c1b3f87f,P7316,Kid's Tricycle,kids,41.74,5,wallet
+2023-03-03 13:37:27,bea63dcb-6990-4c15-b8a2-aa668869890b,P1811,Men's Formal Shirt,men,182.89,5,upi
+2023-12-10 21:22:10,c8c4d4c2-ce3a-43cc-8ab7-cd5bdc2d5f7a,P4472,Men's Formal Shirt,men,72.01,4,wallet
+2023-06-03 13:24:45,a7c522c3-4abb-4676-ba95-4607d2022e62,P6822,Men's Watch,men,142.34,5,credit_card
+2023-11-21 04:59:32,66f2c11f-f1d2-4c53-b118-d44a983c304b,P8889,Men's Watch,men,86.32,5,credit_card
+2023-08-29 08:06:59,3fe0769b-4839-4eee-8d0a-bb68bb659813,P9346,Women's Handbag,women,124.06,4,wallet
+2023-04-16 23:06:27,8b701361-f89c-4cc7-9777-434ef9635142,P8156,Kid's Onesie,kids,91.04,2,wallet
+2023-05-13 22:15:46,77de69ea-3fbc-49b9-bc02-6be2e6c402c5,P6677,Kid's Onesie,kids,123.58,2,credit_card
+2023-10-25 13:06:00,a909a658-4541-4639-9a63-e2f1b91caa51,P6525,Men's Watch,men,15.1,2,upi
+2023-04-11 12:44:46,71535410-8760-4236-9631-b0edfd841559,P1172,Men's Shoes,men,45.43,3,credit_card
+2023-07-12 13:32:08,bb88bf4c-59fa-4594-aa68-ac2940c6e049,P9046,Women's Earrings,women,178.02,5,credit_card
+2023-10-07 23:13:41,3ba51830-89c3-4655-90cd-cf77bd25eb80,P5457,Women's Scarf,women,92.1,4,wallet
+2023-01-04 07:28:45,477e82e5-c9e4-483b-9fbb-59d42de000c1,P3901,Men's T-Shirt,men,156.58,5,upi
+2023-08-28 15:43:58,2ac5d61d-e38b-4ccb-b1f9-b597333fc8cc,P6765,Men's Formal Shirt,men,196.4,5,upi
+2023-11-17 15:11:27,330ae7c2-1b50-4faf-85e8-a3ff1ab0227d,P6894,Kid's Toy Car,kids,164.18,1,upi
+2023-03-25 15:47:41,39e8ffd2-67bd-4d38-a054-2d3fc22e348f,P7522,Kid's Story Book,kids,97.01,4,credit_card
+2023-04-14 08:40:14,1ad63be2-7a44-40c4-be77-9c7f4ae50ac6,P8406,Women's Earrings,women,119.78,1,wallet
+2023-02-28 00:32:22,0f1c50d6-c520-49c2-9680-f8eb6982f791,P4773,Women's Scarf,women,114.41,1,wallet
+2023-01-20 17:19:53,ae4c59f6-d627-43b7-a324-c80f70bc1be2,P6313,Men's Formal Shirt,men,181.53,5,wallet
+2023-02-01 07:38:45,3e666f11-47a3-483c-93a0-2e3ac60b294b,P3976,Men's Jeans,men,153.86,1,wallet
+2023-12-01 21:26:51,8528e492-41a1-44a8-b375-211dc55562db,P2014,Women's Scarf,women,184.12,1,wallet
+2023-10-09 00:57:04,d030c383-d62e-40cb-8b2f-9fa0bc0ab1d9,P7741,Women's Scarf,women,118.03,5,upi
+2023-04-07 19:12:52,a05e357b-026a-48c2-a2fa-dafef0e86bdb,P9881,Men's Watch,men,187.65,3,credit_card
+2023-12-16 16:43:09,106c5a68-1993-4456-9da8-dc948f4efc4d,P6328,Men's T-Shirt,men,120.97,1,credit_card
+2023-02-13 09:31:32,1b1f7c55-0f26-492f-8bc1-39b15e220250,P4721,Women's Earrings,women,134.79,2,upi
+2023-02-01 04:08:49,835b8c1b-525d-4785-8afd-a4afcd70f5ff,P5336,Women's Handbag,women,167.29,2,credit_card
+2023-09-17 00:06:22,7ede5dd6-d227-48b6-addf-f9bc2da59bef,P9409,Men's T-Shirt,men,162.11,5,upi
+2023-07-14 17:19:07,b33ca03d-c290-4f19-a600-c7f0f691a2e5,P7585,Women's Dress,women,60.39,4,credit_card
+2023-08-22 11:56:06,952cc7d7-288f-4bcd-9910-546d77a4be1a,P6008,Kid's Onesie,kids,150.55,5,upi
+2023-05-25 02:34:30,94d04a24-f1cf-40a7-8875-d94c04fa8a0c,P5917,Women's Handbag,women,192.91,4,wallet
+2023-01-20 04:33:56,5f524d7f-dfd1-4845-ad0a-38cd93f5e188,P7026,Kid's Tricycle,kids,39.64,3,wallet
+2023-01-15 04:10:49,17d7c4c1-c976-4115-b325-10473314e9b8,P8043,Men's T-Shirt,men,188.56,4,wallet
+2023-01-05 19:54:50,c038c4c3-9b2e-4954-af5b-91c9804d12d0,P7860,Kid's Story Book,kids,15.0,2,upi
+2023-09-04 17:15:50,058ec267-2735-4e98-bccb-5315d3338114,P7646,Men's Jeans,men,137.63,4,wallet
+2023-10-16 15:58:41,0a5765f1-fafa-407e-b7e1-5d68a3e8aeba,P2403,Women's Sandals,women,16.49,3,upi
+2023-08-02 19:13:22,263e2869-845d-4fd3-85e4-6887cdcaefee,P3989,Kid's Building Blocks,kids,32.23,4,credit_card
+2023-07-07 17:22:28,301dbc21-1f75-4a5a-81d6-e3e9bf262c92,P9743,Men's Watch,men,145.28,3,upi
+2023-01-18 08:01:36,7abb5176-bb36-4e59-9fd1-5fa9cb0e6cbc,P3601,Women's Scarf,women,12.84,2,credit_card
+2023-04-29 23:32:51,28f2ec27-233a-4a59-8c78-0b77ed8933d8,P8570,Men's Jeans,men,49.96,2,credit_card
+2023-07-27 09:43:13,62a69a18-5be4-4a88-98a8-825d1def03cc,P7852,Men's T-Shirt,men,35.08,4,wallet
+2023-01-28 23:22:23,3bdb5bf2-e5fe-4625-a5cb-596c4df74b54,P4462,Women's Earrings,women,149.33,4,credit_card
+2023-05-05 10:18:04,93ffe8b1-e1bd-4a44-acc4-19bca9008374,P8615,Men's Watch,men,56.28,3,upi
+2023-03-06 05:07:11,f56f08d8-9a69-4f52-bb79-1c6d5aec5633,P7710,Men's Formal Shirt,men,49.71,5,wallet
+2023-01-28 13:07:04,ba59357b-5bc5-4c4f-a6b7-29a113b219e8,P7041,Women's Scarf,women,88.1,1,upi
+2023-09-20 16:12:03,8229ff7f-92e4-4448-91c2-840a34dfaddd,P7788,Women's Scarf,women,59.99,3,upi
+2023-11-26 22:09:43,be9461be-01ec-473a-b43d-15a33e0f6de5,P5913,Women's Earrings,women,197.01,2,credit_card
+2023-10-23 20:09:22,9410ca6c-1178-4e11-9386-70f06cf70e9c,P1676,Kid's Building Blocks,kids,103.91,5,upi
+2023-06-24 16:51:22,aa469078-d220-4a8f-8919-831d77bf4d08,P5726,Women's Scarf,women,154.92,4,wallet
+2023-12-18 21:55:46,d3f9b60a-4647-434c-a097-4785430c36d9,P2891,Men's Formal Shirt,men,115.16,3,credit_card
+2023-03-12 23:27:57,86f40da4-13ae-4168-a3d6-739a0ce81704,P9215,Men's T-Shirt,men,197.01,5,wallet
+2023-04-24 21:06:40,44c56b5e-daf0-40f3-b543-0884fe4064ca,P4485,Kid's Onesie,kids,178.92,1,upi
+2023-06-05 15:16:51,2a94f1ad-95b1-4528-9d53-689f2114b303,P2350,Women's Scarf,women,44.24,3,credit_card
+2023-09-16 20:08:13,b0d2c46f-aebb-4d86-9084-7bc1f1326c78,P5216,Men's Watch,men,109.34,3,upi
+2023-11-29 00:28:13,27bdc95e-44f1-4098-8ca5-b936827a857d,P9647,Men's T-Shirt,men,185.11,4,wallet
+2023-10-21 18:53:32,597fe143-4499-467d-a45f-525fc877a7bb,P8448,Women's Sandals,women,15.25,1,upi
+2023-11-18 13:01:00,e885d326-7d81-4e4a-b746-b74fd7096765,P3135,Kid's Story Book,kids,104.54,4,upi
+2023-02-28 11:37:41,aca89a0d-9cb4-443e-b197-21620fa344dd,P2670,Women's Dress,women,16.58,1,wallet
+2023-09-15 08:04:59,21012c33-2793-4c3d-b564-2382f1fd2555,P7657,Kid's Building Blocks,kids,167.29,2,upi
+2023-04-24 15:07:24,bfbe7f7a-5f76-432a-9951-2589eceade14,P4546,Men's T-Shirt,men,103.91,3,wallet
+2023-03-31 19:48:01,3c470a47-85c1-48a9-a620-19fa61fc6a39,P5103,Women's Handbag,women,149.17,1,wallet
+2023-08-03 15:48:06,4fa07cde-ec98-478c-95b9-7bbf69cf1d07,P7007,Kid's Story Book,kids,164.94,2,wallet
+2023-08-30 09:26:38,dd511abd-11ae-4aba-b99f-a078086cda77,P4072,Kid's Building Blocks,kids,72.57,1,wallet
+2023-11-23 22:25:37,6ea4d169-ce78-4e9a-affb-7607b55537a7,P1450,Women's Handbag,women,164.08,4,upi
+2023-04-12 04:20:24,529a890b-b43a-415d-9e9e-866270ee5896,P6184,Women's Scarf,women,43.23,2,wallet
+2023-09-02 03:49:45,9d8524c7-f2db-4567-b3b6-ad95a88b3bdc,P6565,Women's Scarf,women,135.1,1,wallet
+2023-05-19 18:23:37,8cd75876-51c6-4293-b89e-bfc8201d65bb,P7240,Kid's Toy Car,kids,150.44,2,upi
+2023-08-02 15:25:11,bc14d7d5-cb59-4643-9dfe-2e9ee4143535,P9048,Women's Earrings,women,165.58,2,wallet
+2023-07-14 06:06:21,54d103c0-1371-42d8-a3a8-6bc3efd7941b,P7879,Women's Dress,women,57.53,1,upi
+2023-12-08 18:25:26,f9194035-bad6-45d2-8119-f762da9efe6f,P1897,Men's T-Shirt,men,14.89,3,upi
+2023-02-02 13:04:50,41a63dc8-8d8d-4644-8184-d510bbde11e8,P5878,Women's Earrings,women,176.48,2,upi
+2023-11-24 02:53:23,bf486226-a3d7-4f28-851b-b6e7f3266bff,P6743,Women's Dress,women,175.67,5,credit_card
+2023-12-05 22:26:11,81ff96a3-1024-468d-aaad-92839a75cfee,P8287,Men's Shoes,men,150.27,2,credit_card
+2023-10-31 01:53:22,60d826fe-166a-4b9a-8828-41345eab1c8c,P5205,Men's T-Shirt,men,111.12,2,upi
+2023-03-24 20:54:51,724736bb-5c50-4ef8-a5cf-f472ee2662f0,P6211,Women's Dress,women,101.81,4,wallet
+2023-08-20 03:09:39,306e37cd-7957-4d5c-8aab-ab105e30fc86,P2778,Kid's Tricycle,kids,165.39,1,wallet
+2023-10-09 04:31:44,e4298717-f1b0-4995-9d59-8ccaba669ef6,P3857,Men's Shoes,men,44.78,3,upi
+2023-02-07 15:37:38,fc654d54-388d-4869-8c0a-58446ee13922,P5495,Kid's Story Book,kids,153.35,1,upi
+2023-11-21 16:02:36,76f22eb1-229c-4655-a290-69a1affc8b11,P7275,Kid's Onesie,kids,162.61,4,credit_card
+2023-06-23 21:32:42,328a9b33-bf5b-415f-813d-5619306a3116,P6880,Women's Dress,women,145.3,1,upi
+2023-12-10 05:19:34,2a73568e-0873-4836-a9b1-939360cca0f9,P7408,Men's Shoes,men,106.81,4,upi
+2023-03-09 00:56:37,6ad78816-bd98-498d-bf3a-b9fe4ebec639,P5597,Kid's Toy Car,kids,58.14,1,wallet
+2023-09-11 19:22:59,f6b0274a-c3d5-494a-a089-b9e41b3849e7,P8674,Men's Jeans,men,99.21,2,wallet
+2023-10-18 23:23:16,4810ad10-4b2b-41d4-8aa5-2e42f34524f5,P6889,Men's Formal Shirt,men,108.05,5,upi
+2023-05-06 14:11:15,3a7ceaa6-20d6-47d1-b364-90e715a2f94b,P2296,Men's Watch,men,193.37,2,credit_card
+2023-07-02 09:41:02,4421b7d9-c52b-41e7-8ead-220bb19e5b13,P1714,Kid's Story Book,kids,45.23,3,credit_card
+2023-04-24 07:55:18,2025a732-baae-480c-8e5a-c225285f0078,P8697,Men's Shoes,men,134.11,5,wallet
+2023-06-11 11:09:20,966227bf-a3b5-44ed-96fc-20305aa4c4b9,P7109,Kid's Building Blocks,kids,101.78,4,upi
+2023-12-04 06:21:24,cedbd028-157c-4ef5-bad8-c2f2e1c757cd,P8274,Kid's Tricycle,kids,135.52,3,upi
+2023-05-07 07:55:14,05cefa24-ca2f-44d0-87ed-8edb0fc931f4,P2955,Women's Dress,women,57.25,1,wallet
+2023-06-03 02:05:02,05ca598f-feff-454f-bc93-00099a11202a,P6800,Kid's Onesie,kids,167.66,3,upi
+2023-02-19 02:54:56,faf8824c-af42-4092-a7b0-de2e4c460808,P8326,Kid's Story Book,kids,43.8,3,credit_card
+2023-12-28 19:37:10,54b39a17-047e-4903-a6a7-263314a32103,P4328,Kid's Story Book,kids,149.61,4,credit_card
+2023-03-25 02:04:43,0f21fc52-2f20-48f1-9ad6-94d554a567fb,P9760,Men's Watch,men,79.88,4,wallet
+2023-05-17 17:32:58,e3943000-5430-4595-a32c-e9ca63287517,P3712,Men's T-Shirt,men,67.23,5,credit_card
+2023-11-05 15:58:34,59da2151-39a4-47c5-a266-33cf663ddab8,P8264,Women's Sandals,women,174.46,3,credit_card
+2023-12-29 20:26:00,88412754-5aa0-4a6c-8a36-f1a6356117c4,P1562,Women's Handbag,women,165.76,4,wallet
+2023-12-08 02:52:50,84fbfce5-79ca-4016-af98-c536b1446dae,P7979,Kid's Building Blocks,kids,145.5,1,upi
+2023-04-23 17:55:57,50ff4ae3-d48b-4ca5-8a9e-a44b9feacf5f,P9921,Women's Handbag,women,155.11,1,upi
+2023-09-26 01:17:15,998cf0cc-14ca-4f82-ba4c-188dc7add418,P7477,Men's Watch,men,47.66,4,wallet
+2023-11-16 19:47:24,82abbd26-a617-4b25-9afd-89a5e0004d71,P4513,Men's Formal Shirt,men,21.96,4,wallet
+2023-12-01 06:32:29,f9895365-4f36-4f5d-b7eb-fe1be3de11b0,P9954,Women's Handbag,women,14.51,5,upi
+2023-03-05 17:49:48,13a15516-1e6e-4ad9-a16d-617762f0d2dd,P7630,Women's Dress,women,177.28,4,wallet
+2023-07-21 11:18:07,43843037-0d23-4887-8341-b317a5c1c136,P1106,Kid's Tricycle,kids,49.16,5,credit_card
+2023-05-06 11:10:36,6c831a0e-f981-494d-b578-9e92584b5015,P6831,Men's Jeans,men,52.89,5,wallet
+2023-01-06 12:29:04,02d6ed83-5510-4f9f-a76f-60a94493225a,P4646,Men's Formal Shirt,men,140.84,1,upi
+2023-04-30 20:02:46,380049f0-34aa-4ee0-a5d7-f1eeb48e399a,P4462,Men's Jeans,men,92.71,3,wallet
+2023-06-10 18:04:04,e48fad96-c304-418e-825d-1168909fe315,P3399,Men's Shoes,men,56.55,1,credit_card
+2023-08-28 10:24:57,e8d31d6a-30e6-4949-acea-ade0331df9c8,P8982,Kid's Tricycle,kids,24.61,2,wallet
+2023-11-21 03:48:22,49ec2f3e-0548-4122-9d35-0b676c593a3f,P2414,Kid's Building Blocks,kids,84.37,5,credit_card
+2023-06-27 04:26:08,61fadc22-43c1-4cc3-9e43-f1f8ad9f773c,P1459,Men's Formal Shirt,men,162.97,4,wallet
+2023-01-28 11:38:33,1e5b2c2e-a97e-4c7e-a4b3-eb098a26c9b2,P6979,Men's Watch,men,196.0,2,wallet
+2023-07-22 22:43:00,26b4db80-4885-4444-846f-3e1dd4e4e4d8,P7974,Kid's Story Book,kids,120.79,4,wallet
+2023-11-27 03:05:15,30c62571-b839-4200-b9e7-d8bb27a4afab,P7034,Kid's Toy Car,kids,135.14,3,wallet
+2023-04-18 10:00:02,8827fbb9-07dd-446b-ab3c-1b959dd80bf5,P3076,Kid's Building Blocks,kids,130.48,4,wallet
+2023-10-25 03:42:00,4204ef37-24ea-4eca-a97a-f9d21ca8e6e4,P2945,Men's T-Shirt,men,95.11,3,wallet
+2023-01-27 22:15:33,7d606038-7ede-4b54-aac8-d478f815bb24,P9748,Women's Scarf,women,192.55,3,credit_card
+2023-03-20 08:09:02,a28a5684-abee-4407-922a-30b62ce2ed53,P2764,Men's Formal Shirt,men,127.8,5,credit_card
+2023-02-18 14:16:05,6bf68d40-4a9c-4311-bbea-b863fad582fa,P8304,Men's Watch,men,20.61,3,credit_card
+2023-08-16 14:52:36,6d1daaaa-95d2-4e72-b8d3-45beb353fe1f,P8854,Women's Scarf,women,93.95,3,upi
+2023-10-12 16:52:28,777ad049-5ef1-4a51-a8f2-4df616a70775,P4855,Men's Jeans,men,46.2,5,upi
+2023-04-24 21:42:00,f960ff23-d3e8-44ad-9b17-156f6fa7c246,P8248,Men's Jeans,men,47.59,4,upi
+2023-07-01 10:55:57,c5205d88-5229-44de-9ee6-78830ebdf09e,P4448,Women's Dress,women,75.01,1,upi
+2023-03-20 14:23:36,6c41087c-1d27-4c67-9495-e5b2539833c1,P4003,Men's Shoes,men,167.11,1,wallet
+2023-06-06 10:07:19,b597c9d6-3332-464e-8a59-3e33fe3cc4ac,P7615,Kid's Toy Car,kids,187.57,3,wallet
+2023-01-31 02:19:28,f3019917-82ca-4c5d-b44f-a142f9b0d0f0,P2516,Women's Sandals,women,119.26,4,upi
+2023-02-19 14:58:12,4298651a-f049-4ab2-b450-b6dc5d80bfd4,P1842,Kid's Onesie,kids,134.65,4,upi
+2023-11-21 00:14:23,67b55e9b-1df3-4e9c-b0e1-e4fd1397dab5,P7774,Men's Formal Shirt,men,94.3,2,credit_card
+2023-05-10 12:41:24,4206d60b-c70c-4390-93eb-e13564bcb8a4,P3083,Men's Shoes,men,81.21,3,credit_card
+2023-11-02 07:10:36,e4fad265-fad8-4a52-981a-2d0a85991380,P1071,Kid's Tricycle,kids,171.7,5,credit_card
+2023-10-20 19:44:40,4ed1b049-3927-4ff1-a866-8d697607d5d2,P2065,Kid's Toy Car,kids,164.01,2,credit_card
+2023-07-18 11:39:31,15c2e753-15bb-4ac1-b9d4-34dc4a5380c0,P8953,Kid's Toy Car,kids,43.51,3,upi
+2023-02-11 10:33:25,368eb64d-8756-4319-bd18-1b766a0cfe54,P1373,Women's Sandals,women,134.17,3,upi
+2023-11-09 14:02:26,cc68fe13-6a90-444b-b621-d8534c23ed66,P2271,Women's Sandals,women,47.73,1,wallet
+2023-03-12 11:03:41,9efae711-bdf1-4d24-adb6-756b6fbfb197,P4714,Men's T-Shirt,men,97.03,2,upi
+2023-12-20 01:29:55,a6b42a5d-1b8e-4b12-854d-a31983437d5b,P4112,Women's Dress,women,71.75,5,upi
+2023-06-08 12:13:34,97a3d76c-84d2-4e06-94d5-dc1af430ee37,P5548,Women's Earrings,women,98.13,2,upi
+2023-09-03 01:56:43,987c6034-7202-405c-b556-41aac67c5430,P8999,Kid's Toy Car,kids,87.13,4,upi
+2023-11-22 05:48:40,6bc40c12-c7e3-4dfd-bee0-424dd632dc3d,P3794,Women's Sandals,women,45.81,4,upi
+2023-01-06 04:31:17,12e542a2-277c-4294-a237-dc0fa0d7d609,P5912,Kid's Story Book,kids,172.66,4,credit_card
+2023-12-24 22:06:23,2f7cece5-742e-4a9f-8d93-32bfa0de0679,P2253,Men's T-Shirt,men,107.53,4,credit_card
+2023-09-20 06:45:35,9bc9d54a-661f-4c79-9061-2afd35474138,P8558,Women's Sandals,women,93.6,1,wallet
+2023-05-14 14:43:35,54af93ea-c35b-4cb1-9dc8-c9d04cfd04bf,P7312,Kid's Tricycle,kids,11.63,2,wallet
+2023-10-21 09:29:28,08361e0a-5219-43c1-b4e0-ce40c665719d,P9105,Women's Scarf,women,138.0,3,wallet
+2023-07-15 23:00:08,51d9c503-6ce4-45cd-9b4a-966355d2c789,P6508,Kid's Building Blocks,kids,13.14,5,upi
+2023-08-09 20:46:59,b7ea4071-701b-4e4e-ab02-c4e5f3a03265,P8964,Men's Formal Shirt,men,28.09,3,wallet
+2023-07-22 06:44:45,fc49512d-2684-4bc2-a534-8d5f121a9848,P2525,Men's Shoes,men,9.33,5,wallet
+2023-03-21 00:24:45,11ccd1e8-4901-4029-b147-bb8cad4703d1,P8391,Women's Sandals,women,122.68,4,upi
+2023-07-17 15:10:19,6b8ebe65-f2ca-4ef0-a8e2-6f9d40592843,P7937,Women's Earrings,women,140.61,4,credit_card
+2023-01-01 03:44:08,aab50aea-3739-4f0d-9371-816d93280b43,P4820,Men's Shoes,men,149.28,4,credit_card
+2023-08-04 13:39:10,db8d4ae7-f8c7-4e7a-8cbf-77e910bd6eb5,P1125,Kid's Toy Car,kids,102.48,2,credit_card
+2023-10-24 03:32:46,18493cc4-409f-4246-9313-dee0dfb48747,P6822,Kid's Tricycle,kids,34.96,3,credit_card
+2023-12-23 20:26:54,750a3a03-70b0-4b6e-8143-8937f42c6331,P3216,Kid's Toy Car,kids,78.66,2,credit_card
+2023-09-29 12:09:29,6765f989-e96d-4b74-bde0-5440109f8946,P6313,Women's Scarf,women,93.28,5,upi
+2023-05-04 22:33:48,54f94108-aa84-44a8-8943-285f8922bdeb,P9879,Kid's Building Blocks,kids,156.49,4,wallet
+2023-10-31 08:29:31,a42cb33b-9d63-4b31-9a01-12eff0055d71,P1515,Kid's Toy Car,kids,153.03,1,credit_card
+2023-10-31 09:16:44,5737a075-fb21-4efc-b749-3745f833bac7,P6014,Kid's Onesie,kids,149.2,2,upi
+2023-12-27 14:47:34,204345d6-a2ba-456e-9009-6016aaf9ef6b,P7801,Kid's Onesie,kids,117.96,5,wallet
+2023-09-27 02:34:16,5ee055a1-ef12-4772-8f75-cd7c625b98d0,P1110,Kid's Toy Car,kids,114.87,3,wallet
+2023-10-19 08:05:12,953af8f9-5c08-4c0c-ab8b-37016af1e1eb,P8010,Women's Scarf,women,117.03,5,wallet
+2023-09-23 16:20:28,595c4a72-a420-40c7-934d-bc39ba69198c,P7858,Women's Earrings,women,88.74,3,credit_card
+2023-01-17 09:16:55,5f71cf47-4e20-4637-81a1-b6968b583955,P3987,Men's Formal Shirt,men,133.05,3,credit_card
+2023-01-06 21:14:08,a2e1cf0c-06fb-4db0-a21e-742cf397fc4b,P2456,Men's Jeans,men,143.14,5,upi
+2023-03-26 11:56:52,d5f2b2f4-e80a-4d25-a16b-bfa987079b9a,P3167,Men's Watch,men,115.92,4,upi
+2023-10-09 03:58:47,6ef6a939-95ed-4e80-878f-8e07e423e74f,P7299,Women's Earrings,women,126.08,5,credit_card
+2023-05-21 08:28:24,e102d53c-82a6-4033-af76-bd598c7b57b0,P3352,Women's Dress,women,176.05,3,credit_card
+2023-07-16 14:31:56,f1dfd159-38d6-4652-b999-9661c0825bb3,P1701,Men's Jeans,men,124.71,2,upi
+2023-06-07 18:09:02,1ca41e36-f5f8-4d3c-98f4-ab7bd9ac52d3,P1732,Men's T-Shirt,men,101.21,5,wallet
+2023-02-15 06:55:11,a23ab0f3-1bad-427f-a91e-bf34a4e677be,P1874,Men's Jeans,men,32.1,3,credit_card
+2023-04-21 19:59:07,534ca519-8f78-41a7-b435-fec90ff3522e,P6296,Men's Jeans,men,47.65,1,wallet
+2023-11-11 20:27:00,82ac0a00-0e30-48d3-aecb-c8a14f1941b0,P9661,Men's Jeans,men,156.3,2,credit_card
+2023-09-23 01:17:25,7e3efd43-148f-4c5a-94a4-ad81775e91c6,P3908,Women's Earrings,women,147.34,1,wallet
+2023-11-28 14:44:48,38afefbc-21f8-471c-9c41-cf4b318760b1,P3697,Women's Handbag,women,148.64,5,wallet
+2023-09-28 17:11:36,c32a2950-be43-4ed2-ab7c-d91f7e2b7831,P9038,Women's Scarf,women,9.82,1,credit_card
+2023-12-21 09:51:46,f8aad0c3-e897-4c82-972c-e7f227002399,P3380,Men's Formal Shirt,men,32.86,1,wallet
+2023-05-05 23:14:41,7663863e-3bd9-4939-a96a-15739dae0558,P1243,Kid's Story Book,kids,88.13,5,credit_card
+2023-04-30 14:23:32,866ceb00-6e8e-4a0a-879c-d30b8475537e,P1722,Women's Dress,women,53.01,5,credit_card
+2023-11-16 00:06:41,91fb7335-227d-46ad-9a86-b4652bed4e98,P1754,Women's Earrings,women,44.09,5,upi
+2023-10-04 08:46:19,32665951-fe29-44f6-8747-e32671728983,P8361,Men's Watch,men,44.25,4,credit_card
+2023-01-21 18:44:14,d96fce7a-2a8c-41d5-8b9a-d29ed7bcfebc,P7994,Men's Jeans,men,121.03,2,wallet
+2023-06-11 00:09:50,d60e6505-12ae-4177-970a-cb75ba06de69,P3370,Kid's Onesie,kids,146.04,2,credit_card
+2023-12-01 06:41:28,b3c77cb5-f2f6-41c7-a452-376502341481,P8112,Men's Jeans,men,127.84,5,credit_card
+2023-12-17 08:47:45,26949d9b-b42f-4ffa-a21f-ec28de8289b0,P6910,Men's T-Shirt,men,24.04,3,wallet
+2023-08-15 12:52:19,47e57049-7077-40d1-8a95-77da04f8861a,P5051,Women's Sandals,women,179.75,1,wallet
+2023-05-02 23:46:26,ea22963a-2475-4492-b023-f23f0c4075a4,P1879,Kid's Tricycle,kids,144.97,4,wallet
+2023-10-12 00:44:02,300237ff-7a02-490d-9505-4b2c16f40c6f,P7307,Men's T-Shirt,men,44.63,5,wallet
+2023-12-23 04:35:08,92d8731f-0184-48b2-b63f-874886915609,P8359,Kid's Story Book,kids,25.01,5,upi
+2023-06-04 22:27:28,5d6b5fb9-7182-4a08-bde9-7d5a8b0acdb5,P7158,Kid's Onesie,kids,95.33,4,credit_card
+2023-03-27 11:27:13,d1dd8c48-050b-4bb2-af2f-10897b3dbba1,P6511,Women's Earrings,women,48.86,4,wallet
+2023-03-26 00:22:44,6ab19f67-5383-4428-91a9-21e0e8d52b83,P6659,Men's Watch,men,93.89,5,upi
+2023-12-22 16:13:41,9ef40bac-fd1e-42cc-a0a8-556615188207,P6834,Men's Shoes,men,59.37,2,credit_card
+2023-11-12 02:38:23,c9b6f1e1-46d7-4ee1-a799-2197cc6ac954,P7602,Women's Sandals,women,150.82,3,credit_card
+2023-11-29 23:51:02,3fe07ce7-fec5-407b-a104-e69b40473e6d,P1974,Men's Formal Shirt,men,85.33,4,wallet
+2023-07-26 01:59:30,fa3449dd-04cc-4224-b91b-ae7740b3d5cd,P9602,Men's Shoes,men,182.56,2,credit_card
+2023-10-07 19:26:11,f6807ccc-498f-47a4-88b3-06f3402e20d3,P4696,Kid's Tricycle,kids,110.52,4,wallet
+2023-09-12 06:57:43,9752813a-7451-4c3a-80b3-00a2f05190dc,P6124,Men's Shoes,men,75.33,2,wallet
+2023-06-12 11:49:41,b938511d-723a-478d-a82f-4e71f8894812,P7557,Women's Sandals,women,167.91,1,wallet
+2023-08-08 18:39:41,76779d27-ac97-42d4-a52f-25f2043c7012,P2550,Men's Formal Shirt,men,91.08,1,credit_card
+2023-06-20 16:25:57,b7a33a2c-ddcd-436c-bc36-066f9cbdfc85,P9241,Kid's Toy Car,kids,184.85,2,credit_card
+2023-05-10 03:45:00,16a0df67-f967-47d0-86da-9c7cbe8f91d1,P9345,Women's Dress,women,31.43,3,upi
+2023-08-13 01:52:59,8b6518d1-7b39-467f-980b-9cd34d327932,P1213,Men's Formal Shirt,men,18.17,3,upi
+2023-01-11 17:37:55,397ea861-0745-4757-821d-6702d2d805f3,P5831,Kid's Building Blocks,kids,65.07,5,upi
+2023-02-16 10:14:53,bf56a4c2-bbe6-40bf-81d5-79dd262f52f8,P9322,Men's T-Shirt,men,13.95,3,credit_card
+2023-07-02 22:02:46,59698f69-fae4-4a7b-98ec-9df687ec4ee8,P3414,Kid's Onesie,kids,125.77,4,wallet
+2023-02-25 05:58:07,2d9b24be-4165-40f6-ab6a-0670cc28edf3,P2157,Women's Handbag,women,97.94,2,wallet
+2023-04-03 19:13:27,3e8ef2fc-086f-4ae7-a7db-32d35603aff5,P6469,Men's Jeans,men,110.21,1,credit_card
+2023-08-28 09:25:44,c3c32347-484e-4551-9736-3d0fffce137c,P2313,Men's T-Shirt,men,42.54,4,upi
+2023-08-16 14:51:56,d3c25d30-8233-4d36-9cde-e59b52abaf86,P2001,Men's Shoes,men,16.52,3,upi
+2023-12-25 19:08:21,9e285caa-4ca6-4132-9256-e7d669483753,P6627,Men's Watch,men,156.47,1,credit_card
+2023-11-19 01:29:43,4bfd40e6-111a-46a3-a865-2e4f8723f75f,P4335,Women's Earrings,women,141.86,4,wallet
+2023-09-14 19:25:50,48c82ec2-b3af-40a3-b71c-0d3a58c58dc6,P1786,Men's Formal Shirt,men,75.0,2,wallet
+2023-02-12 07:38:02,ddf0f69f-6864-45e8-8533-2561faf6f916,P8314,Kid's Tricycle,kids,94.11,4,upi
+2023-04-29 09:57:49,35f09224-6c0d-4470-88c3-064c9ce2a6d1,P6160,Women's Scarf,women,187.45,4,upi
+2023-01-06 08:57:48,e14d3993-118d-45c1-a4b8-591a2d51fe80,P3642,Women's Sandals,women,175.4,1,credit_card
+2023-06-23 16:11:44,03486eca-4e00-45f6-9eef-dcd76fdd544e,P1867,Women's Scarf,women,54.54,2,upi
+2023-04-06 22:51:10,21c90ecf-8682-4eb3-a7e3-dfbc386fc95d,P8361,Women's Earrings,women,198.82,3,wallet
+2023-09-06 00:55:54,cf9c0f02-ce4b-4c47-a4fe-429dfed706ef,P4614,Kid's Story Book,kids,32.19,5,upi
+2023-04-30 13:45:50,405d7ea2-7d44-4c26-8e16-c49f2438df85,P5931,Men's Jeans,men,193.34,5,wallet
+2023-10-28 12:01:09,1dd4a36b-d7f3-43d3-b4de-aee93a917295,P1121,Men's Formal Shirt,men,61.32,5,wallet
+2023-06-19 13:55:21,915e6053-19b9-44ba-80f4-73b14955bc42,P3569,Women's Dress,women,38.31,2,wallet
+2023-05-27 07:55:02,7304e2b0-34ab-487d-a7f1-ac327ba590b8,P2402,Kid's Building Blocks,kids,189.14,4,wallet
+2023-05-15 01:33:12,b75282a4-29d2-45ea-8506-3a1236f89ee6,P2435,Kid's Onesie,kids,137.73,3,wallet
+2023-01-29 03:46:25,8c1197c6-bf3c-4a9b-a9b5-3106a7f0b64f,P9256,Women's Scarf,women,60.79,4,credit_card
+2023-07-27 20:02:31,33031346-ebd3-4fb2-bbd0-e4d0d7c4e146,P7745,Women's Dress,women,126.9,2,upi
+2023-02-21 22:05:52,c6233b6b-7cf1-4059-80c6-7f38cabf3374,P2805,Kid's Tricycle,kids,89.9,3,wallet
+2023-12-22 13:15:47,d35cca03-4bf8-497a-828a-1d0c79ab018b,P5064,Kid's Toy Car,kids,94.63,1,credit_card
+2023-10-29 06:05:27,45572538-b3a2-46fb-9258-78f51b442ea4,P6174,Men's Formal Shirt,men,34.16,5,credit_card
+2023-10-06 23:30:36,2495d804-d8b0-4234-8dc1-43c8f8c646b2,P9170,Men's T-Shirt,men,53.73,3,wallet
+2023-06-27 10:17:58,058674eb-bc5c-43b5-ab23-e6ba524fa566,P4777,Women's Scarf,women,82.21,5,wallet
+2023-11-13 00:35:05,32b63bea-7266-4723-a357-f8b70d008f04,P8956,Women's Handbag,women,33.88,2,upi
+2023-11-21 17:38:56,0ef5c9a8-e5c3-4d7f-82ef-0146ebaeb2a2,P7046,Men's Shoes,men,165.73,2,credit_card
+2023-12-19 10:42:20,546456dd-38fd-4df4-babc-21cce4af434f,P9703,Men's Watch,men,71.63,5,upi
+2023-04-09 22:50:19,7879d9b0-0e48-427a-b42d-fc785f4e757d,P5665,Kid's Building Blocks,kids,19.11,5,upi
+2023-03-29 21:24:32,3c422284-7a57-4c68-a4b8-7b22a0d54bb3,P5755,Men's Jeans,men,167.99,3,credit_card
+2023-10-02 10:42:35,95c4ef28-511b-4bcb-b55d-189cef50159b,P6402,Kid's Building Blocks,kids,46.62,3,wallet
+2023-12-22 08:10:23,181774fa-ddaf-4d2b-bd36-4b355c8c4b7f,P2324,Men's Watch,men,80.86,5,wallet
+2023-09-08 21:44:40,400b3ae8-4988-40ca-ae4f-e570179a81e8,P5268,Women's Dress,women,161.22,2,upi
+2023-06-05 05:12:32,7fa24430-1832-4252-9b2a-a0a36233b923,P9104,Men's T-Shirt,men,93.13,3,credit_card
+2023-10-04 07:54:01,f72b06c8-91e4-40ce-be53-cbf1fad84ced,P6288,Kid's Toy Car,kids,27.38,5,wallet
+2023-04-02 13:38:24,13c3d505-912c-4fb6-b05f-eae94ab89dfd,P7027,Kid's Story Book,kids,173.64,2,wallet
+2023-09-15 15:43:30,a51a3948-10ff-4bd3-ac08-bc75444017f0,P4654,Kid's Toy Car,kids,10.74,5,upi
+2023-11-09 03:32:08,a19f480b-5e36-4c17-8371-d44534dace98,P1874,Men's Jeans,men,156.87,3,credit_card
+2023-11-05 22:59:21,3eff151a-cd6e-43f9-be94-12bb9e6380a5,P5821,Kid's Toy Car,kids,179.67,2,credit_card
+2023-09-22 09:06:44,b8d1ced4-4b30-4db6-b6d3-c62e8bbf0666,P1758,Kid's Tricycle,kids,28.27,4,wallet
+2023-09-17 12:49:15,9e0fcf27-87c3-4d5c-a4f1-4748afbe2eed,P6487,Men's Watch,men,91.84,2,upi
+2023-03-03 12:24:47,cc3b5d26-0f42-46cd-9257-ecc13ef3836e,P3568,Women's Sandals,women,153.04,3,upi
+2023-04-03 15:59:04,383235c8-70eb-48cf-8ecd-a74aa973f100,P3763,Kid's Building Blocks,kids,78.12,3,upi
+2023-03-01 07:10:30,337c990d-5c49-4cb3-816d-a0f1c5a7aa0d,P8244,Men's T-Shirt,men,146.53,5,credit_card
+2023-06-25 01:51:50,91e652a5-8311-4815-956f-eb01653cfa73,P3593,Men's Shoes,men,20.39,2,wallet
+2023-04-03 21:52:57,6b8769e7-5436-4d5f-b2f6-6be22d5859f5,P7052,Men's Formal Shirt,men,115.38,5,upi
+2023-08-22 18:17:50,bac2477a-2f42-44fb-a3c0-47eb4b3a7f76,P9647,Kid's Toy Car,kids,119.66,4,upi
+2023-02-19 15:31:58,d441e4df-64b4-4a12-bc7e-ef0ee94f76a7,P4588,Women's Scarf,women,124.42,4,credit_card
+2023-08-29 17:56:25,e2c9e6f4-55e4-477c-9202-3acce9d7e6e7,P6138,Women's Earrings,women,35.89,5,credit_card
+2023-05-06 16:05:16,d25a3899-c59b-4418-935c-21e6f2ed0ba9,P5746,Men's T-Shirt,men,79.79,3,wallet
+2023-10-25 18:05:08,dc3f429c-7b38-4153-9dbe-f6d48e66a01f,P1834,Women's Dress,women,48.39,1,credit_card
+2023-03-24 07:37:28,c21c1d44-bd34-4a1e-a6a1-81a6ebcad056,P7188,Kid's Building Blocks,kids,117.01,3,upi
+2023-06-05 16:44:18,3091d670-6766-4cd0-8943-ffc0beca1175,P7656,Men's Formal Shirt,men,180.95,5,credit_card
+2023-10-25 11:25:39,961d9cfb-ccea-4e71-8014-d2fc07f1dfd4,P6955,Kid's Story Book,kids,81.04,3,upi
+2023-01-26 04:23:53,b1bc92bf-e15c-4e5f-a0a0-f08fbfb0b5ff,P9048,Kid's Building Blocks,kids,113.9,2,wallet
+2023-06-19 21:06:45,6908f792-3776-4668-a533-1e645cab03e8,P6476,Men's Shoes,men,194.92,5,upi
+2023-12-24 09:03:39,cda429af-48e9-421e-998a-f53fa3499bf9,P5383,Women's Scarf,women,184.76,2,credit_card
+2023-04-24 06:18:55,58e0aa51-000f-44c0-8534-2d06d60be111,P8398,Kid's Onesie,kids,173.59,1,upi
+2023-07-28 21:26:52,c47db289-7435-4ae3-9d55-f38506e6ea11,P5032,Kid's Onesie,kids,136.49,1,upi
+2023-01-29 08:08:39,49d3e756-6009-4caf-b12a-172626ea190e,P8907,Kid's Toy Car,kids,105.94,5,upi
+2023-11-21 09:22:32,627ccd4a-aaf1-401a-9553-a31f4f7f969e,P5900,Women's Earrings,women,191.4,2,upi
+2023-08-19 19:47:19,ca2a7ef0-305a-4d9d-baa9-55c0e111a0db,P8037,Women's Scarf,women,169.48,1,wallet
+2023-05-05 01:28:59,20388aa4-082a-4274-9f13-bab1ba6314b3,P9708,Women's Dress,women,8.84,5,upi
+2023-04-08 23:36:53,53033692-d3c4-4494-b888-113ac1733dba,P5175,Men's Watch,men,46.19,5,wallet
+2023-08-13 12:00:38,8e58e1de-6014-4cf9-a190-18ae3bc7d4df,P6832,Women's Sandals,women,75.33,5,credit_card
+2023-12-15 12:47:59,ecdfd862-dd19-4cbe-92f5-1100edf0cce1,P3993,Women's Handbag,women,192.09,2,upi
+2023-06-04 00:20:30,7c578482-43d8-41ee-ba5e-88fbdf6a2bc3,P8357,Men's Formal Shirt,men,40.01,2,credit_card
+2023-09-30 07:56:07,1dc2bfaf-8c05-4f42-a0d1-79ba37d3de5e,P1635,Men's Jeans,men,67.94,1,wallet
+2023-06-17 09:44:52,ef4e497c-fe6b-4e97-8092-98cfd05a68fe,P4083,Kid's Building Blocks,kids,54.21,3,wallet
+2023-02-01 09:00:26,30b6e008-7b9d-41d8-a6bc-694d606654a5,P4016,Kid's Building Blocks,kids,169.87,3,credit_card
+2023-05-16 13:49:43,82777040-e9bc-470d-81d8-1b1344f84461,P7857,Kid's Building Blocks,kids,64.35,4,wallet
+2023-02-26 01:46:51,222cc7bb-9d53-42fc-b4c1-4f1cc4c2aae2,P2660,Men's Shoes,men,89.57,3,wallet
+2023-08-27 13:36:38,133afac1-9f3c-40c0-8cda-2e54836d3832,P7101,Men's Shoes,men,96.12,3,credit_card
+2023-12-04 20:11:10,321ddf4e-26d8-4bba-973a-1d720e1daa55,P7713,Kid's Toy Car,kids,119.2,5,credit_card
+2023-09-21 23:49:25,d8fa0697-14e8-4c2a-98f3-6c8825ab6124,P1353,Kid's Toy Car,kids,80.44,2,upi
+2023-09-05 06:18:24,12b8c548-f9a7-4f54-a6fb-fdb40eaae54a,P3467,Kid's Tricycle,kids,91.17,1,credit_card
+2023-07-03 10:57:56,fc686c8f-201c-4918-afb8-ab69d3d741c3,P9473,Women's Earrings,women,90.13,4,wallet
+2023-09-13 00:25:42,ca745426-49e6-4fb1-b55f-ed8574c8651a,P2401,Women's Earrings,women,81.11,5,wallet
+2023-01-06 05:26:49,70a61a3d-e1aa-4429-a7dc-e923e227d58a,P7362,Kid's Toy Car,kids,123.58,1,upi
+2023-07-29 10:08:33,f0d054b2-cfd0-49a2-a676-3237d733bc8d,P9696,Men's T-Shirt,men,51.47,5,credit_card
+2023-07-23 10:37:48,7c65db56-3fc9-485f-86fd-6d07677a0708,P3307,Kid's Building Blocks,kids,42.0,1,upi
+2023-03-31 16:06:55,28ed5696-6d8a-4acc-8929-659af3324171,P7468,Women's Sandals,women,129.48,4,wallet
+2023-06-04 20:25:31,acbdaa05-ce44-4d21-acfe-791078571486,P9897,Women's Dress,women,86.42,3,credit_card
+2023-04-06 13:09:46,10f419f2-cafc-417b-bf52-c8859f2f0322,P7841,Kid's Tricycle,kids,127.43,5,wallet
+2023-07-15 00:59:52,173b549e-b8f8-498d-b7cf-0e5eac340276,P9708,Women's Sandals,women,7.91,5,credit_card
+2023-07-10 15:01:03,6a3b657d-06f0-459f-97f4-bfebc2615fc6,P7393,Women's Handbag,women,80.49,5,wallet
+2023-06-07 06:36:01,580bd648-5c71-4656-811c-72dfb42f8ccd,P9796,Men's Watch,men,94.49,3,upi
+2023-02-20 18:11:47,af67a791-c53d-43a7-90cd-e44fdf0c26e4,P5080,Kid's Building Blocks,kids,26.35,3,wallet
+2023-08-01 13:54:37,764a37c2-63d0-4700-be18-0edf0ea81fcc,P6983,Kid's Toy Car,kids,148.25,3,wallet
+2023-09-23 06:02:13,9a236af6-c875-4322-b206-0d47611bed1a,P9118,Women's Earrings,women,125.5,4,wallet
+2023-08-02 11:18:10,21048804-fdbf-424f-84d7-27605f65f20a,P4097,Women's Earrings,women,35.69,2,credit_card
+2023-11-01 06:06:14,c91cbbb3-bc1d-43c8-97af-9170d617ce68,P9352,Kid's Story Book,kids,158.84,4,wallet
+2023-05-30 10:37:27,ebfe7722-909e-4f86-a211-d8faed72098f,P2986,Men's Watch,men,118.43,4,upi
+2023-02-21 15:54:33,f394148b-11fa-41ac-af92-2e3e2f132281,P8793,Kid's Story Book,kids,86.04,2,upi
+2023-02-27 21:07:54,42d7c3c3-9048-475e-94f7-741d6a404491,P2973,Women's Dress,women,68.21,5,credit_card
+2023-11-15 06:34:50,405495eb-fc3f-4a69-ae94-e42d9947cbba,P7896,Women's Scarf,women,69.78,5,credit_card
+2023-03-10 14:57:27,bcd2f979-7810-4b1e-9bda-c6bf0d657992,P3347,Men's Watch,men,197.87,5,upi
+2023-11-20 16:29:44,6b25e9fc-7f00-4161-ac56-769dc8d31a12,P1069,Kid's Toy Car,kids,27.36,1,credit_card
+2023-09-23 17:52:43,89fd982a-06cf-400d-bbdf-bf52e9a19cb5,P9825,Women's Scarf,women,101.49,4,credit_card
+2023-09-22 06:03:56,8c0bc445-3c17-4f85-b7fc-dd37ee7cfc81,P6310,Men's T-Shirt,men,134.62,1,credit_card
+2023-01-24 19:46:37,e8155bf4-a3f5-4ba5-9563-5a1195321b3d,P4274,Women's Scarf,women,76.56,5,wallet
+2023-11-13 00:43:35,2860c976-7b72-4caa-8ae5-ebc9ac4c9698,P2083,Kid's Building Blocks,kids,6.82,5,wallet
+2023-04-30 17:24:56,062fc9af-24c5-407c-bea5-2f1e83df2902,P8757,Women's Earrings,women,175.45,3,credit_card
+2023-02-06 08:21:13,fc908504-cb0e-46ab-a612-f29667657f99,P4904,Kid's Onesie,kids,88.96,4,credit_card
+2023-07-30 05:30:25,c922502a-72cb-4bd4-b284-14bf3dbba745,P2939,Men's T-Shirt,men,118.03,3,wallet
+2023-12-10 05:59:05,3d29ea00-ecd0-4413-932b-3798a6e44669,P4149,Men's Watch,men,72.05,2,wallet
+2023-06-08 09:55:25,c3785fe0-42e4-4e64-87d3-ebce75b969d1,P2674,Women's Handbag,women,182.12,2,credit_card
+2023-06-08 09:25:28,8a1b1a87-3498-4ce4-9bac-da4b6f788cdb,P1064,Kid's Building Blocks,kids,67.49,5,credit_card
+2023-12-06 23:11:43,ed346769-ed84-4537-9891-ae6dbe620f1d,P5627,Women's Scarf,women,142.38,1,credit_card
+2023-10-11 09:06:05,52aace68-23cc-408d-9399-1f0f51525ece,P1804,Women's Handbag,women,88.75,3,wallet
+2023-01-24 07:26:18,5530d27d-3e61-43a8-b084-d2b1b3bc3906,P4370,Kid's Toy Car,kids,71.26,5,upi
+2023-12-25 04:20:07,45450ed1-e061-409a-8fbc-74a9bc18f4d9,P9586,Women's Handbag,women,182.38,1,credit_card
+2023-09-21 22:24:19,038ffec9-bd32-4087-bbaa-953137582342,P8454,Men's T-Shirt,men,61.56,5,credit_card
+2023-12-06 15:12:26,d39efcea-7642-4fdb-8284-0f9ab898eecd,P5271,Kid's Toy Car,kids,166.88,5,credit_card
+2023-07-07 10:13:59,40931261-f195-4ed6-8fa1-b8aca956d5c2,P6033,Kid's Building Blocks,kids,191.64,3,credit_card
+2023-05-06 05:26:08,cb10fc93-cf14-4397-8e4e-bb67bdb381cc,P2784,Kid's Story Book,kids,149.88,2,upi
+2023-09-29 11:13:20,d2a3223e-f139-412e-81b1-5dfc8e7ea601,P4898,Kid's Toy Car,kids,124.94,1,upi
+2023-10-21 04:41:29,903118d3-18d5-4d17-89c1-91524571cd55,P3548,Men's T-Shirt,men,79.54,3,upi
+2023-03-19 07:01:43,a206d9bf-1b36-45a0-885d-4b2627169f6c,P6146,Men's Formal Shirt,men,96.64,5,credit_card
+2023-05-04 08:06:30,05fb221b-8b35-4928-9c09-1a94eb0aa094,P7696,Kid's Story Book,kids,56.0,2,credit_card
+2023-06-21 19:56:59,04da0771-8ea9-4086-bf90-0582776cd1f3,P1538,Women's Sandals,women,33.84,1,wallet
+2023-07-30 01:38:38,d22177ae-47a6-4bc4-b8bc-47afa61454e4,P5067,Kid's Onesie,kids,127.89,5,credit_card
+2023-10-11 11:07:24,8ae489a1-8e74-4814-ba5e-8d008f7c9b2b,P6994,Kid's Story Book,kids,121.79,5,credit_card
+2023-10-16 11:19:48,2dbe5aad-3b5e-406f-ac01-4ae48d16f17d,P1606,Women's Sandals,women,122.29,5,upi
+2023-06-06 09:28:21,40b3b3d9-6c40-46c4-b983-5d12960051aa,P5745,Kid's Building Blocks,kids,28.0,1,upi
+2023-07-28 21:17:19,b5f040ac-bc2d-45e9-b325-18ac4a24bb82,P7379,Men's Formal Shirt,men,18.79,1,wallet
+2023-09-18 04:24:37,7f6ca214-b6ee-4be3-800f-15af6391e813,P3804,Kid's Building Blocks,kids,31.76,5,wallet
+2023-10-31 18:35:44,87b83bcd-a202-4947-a78e-dbef19609fa0,P4840,Women's Handbag,women,70.22,3,wallet
+2023-06-16 06:51:04,dbdbb4ee-f444-43ac-969c-089b2599e675,P3421,Kid's Onesie,kids,33.37,4,wallet
+2023-07-01 17:27:14,21f66bc9-760f-48e9-9c4c-cb85ca9f8aee,P9083,Kid's Onesie,kids,138.5,3,wallet
+2023-01-01 23:24:11,f61344a3-9586-4c4c-976c-a2203fd33eba,P8978,Kid's Tricycle,kids,152.18,2,wallet
+2023-07-19 10:20:59,e9b649b0-c470-40ac-9b76-0abf04820fa8,P1980,Women's Handbag,women,75.15,5,upi
+2023-08-10 12:58:07,10cc7a03-42c1-4ddc-a0ea-63a0fa3e6d57,P5974,Men's Shoes,men,147.45,4,wallet
+2023-05-09 18:15:14,6cb0ed45-d485-4adf-bab1-bd8e7e906112,P5456,Men's Jeans,men,93.17,3,credit_card
+2023-08-19 20:14:57,6ee52961-5b53-47f0-944d-05e3468902e7,P5020,Men's Shoes,men,140.88,5,upi
+2023-09-29 14:06:52,cf3eacd4-ea70-4050-b6ad-03c7c44cebf1,P5829,Women's Scarf,women,56.95,5,upi
+2023-01-03 07:11:37,38e1b5ce-581f-4458-b681-38f10388d193,P7935,Men's Watch,men,39.01,4,upi
+2023-05-23 01:35:51,594b9979-ec1c-4a3e-a771-2cf7b17ce691,P9014,Men's Shoes,men,55.71,5,upi
+2023-01-02 05:23:17,4e351365-ac2e-417b-8b99-1ea87a6278a2,P3576,Women's Scarf,women,161.61,5,credit_card
+2023-08-16 22:17:00,06d8ae68-1ffa-4a65-b925-1bcdc28526d7,P2259,Women's Sandals,women,62.08,1,wallet
+2023-09-30 09:46:07,7b23d2e8-1bf2-4fa5-95ef-67c75898f11f,P3664,Men's Watch,men,100.55,1,credit_card
+2023-08-11 05:27:50,d842bfe7-1b23-45bd-a026-6297dcfc3b9e,P8171,Women's Dress,women,112.46,5,credit_card
+2023-10-15 23:44:55,d6e9f8db-c1c8-4880-ad32-dc23c52c21b2,P7545,Men's Shoes,men,76.41,4,credit_card
+2023-07-20 05:05:55,6ea880b3-a6ce-4c76-9bad-2d0b19cefc93,P7695,Men's Jeans,men,152.14,3,credit_card
+2023-10-17 01:42:15,0469a7cc-d9da-4671-a792-1120ed0190d1,P5724,Men's Shoes,men,5.32,5,wallet
+2023-11-21 08:54:31,292f0632-7a4c-4b6b-9ce3-2c87d6b62de5,P1607,Kid's Toy Car,kids,144.02,2,credit_card
+2023-08-12 03:11:54,59c0c08e-9e72-4254-917b-ae42edbabd07,P9360,Men's Formal Shirt,men,165.96,2,credit_card
+2023-09-25 13:19:59,32474064-2d74-40ef-9a59-87e86fe07923,P8968,Women's Scarf,women,160.3,2,credit_card
+2023-04-01 05:14:08,ebf680a9-62c6-4a2c-a2da-e138d5643f7f,P6284,Women's Dress,women,108.27,4,wallet
+2023-08-28 09:26:46,4207bc91-d019-4506-96d4-6be533bfabc4,P6983,Men's Shoes,men,40.1,5,credit_card
+2023-12-09 18:22:03,4f7e5b2e-6c63-4cdd-af49-39cf8fdcb755,P4974,Women's Scarf,women,10.61,1,credit_card
+2023-07-22 15:53:40,55960578-bd43-45c8-8d79-2496c9d79879,P7889,Men's Shoes,men,64.07,5,wallet
+2023-04-09 12:37:57,1410162d-9eec-4f41-b822-363fcf88f00b,P5413,Kid's Tricycle,kids,100.23,4,credit_card
+2023-04-02 04:09:05,a30ad19d-c017-4d9e-b4e3-b2e135e50fb2,P7489,Men's Watch,men,69.55,5,upi
+2023-12-14 13:13:04,7c8e3ffe-78ee-480c-a228-b088c5095557,P8392,Women's Sandals,women,44.61,3,wallet
+2023-06-30 23:04:36,bae94fd1-6aa0-45ed-b4e5-56669aa29bab,P4826,Women's Scarf,women,99.75,3,upi
+2023-12-14 12:25:04,798cc068-ae70-4f37-a673-cdc2d42c2e5f,P6592,Women's Dress,women,174.02,1,credit_card
+2023-11-13 08:41:29,98408c1c-80b5-4ab3-80fa-7751ad8a6db0,P4212,Women's Earrings,women,147.58,3,upi
+2023-03-17 19:50:38,bab66687-11f3-4640-8e3a-d7901f84d270,P5809,Kid's Tricycle,kids,70.43,2,wallet
+2023-11-25 14:21:16,564cd05a-a0f3-41b1-9922-c558a84b72f3,P9150,Men's T-Shirt,men,27.09,1,upi
+2023-02-13 02:46:23,7eff591f-b209-467b-8726-bd2506d9fbc5,P8134,Men's Jeans,men,151.56,3,credit_card
+2023-06-04 02:06:23,24c1f6db-2ad0-459a-a8c7-2d65476c7b27,P2563,Men's T-Shirt,men,6.69,1,wallet
+2023-09-22 20:32:38,048d8bc0-62e4-4ac2-8012-9c4e92883ace,P4888,Women's Handbag,women,126.38,4,credit_card
+2023-01-11 09:27:32,301e56ff-694f-4815-90f8-195bfc4c8b36,P1320,Men's Formal Shirt,men,15.88,4,wallet
+2023-01-30 08:15:04,dccf985c-28c5-499c-acc8-2189b4d78be2,P1986,Women's Dress,women,199.58,4,wallet
+2023-01-15 11:42:57,518ab564-b2aa-406e-b8bd-55617cd8ba65,P5578,Women's Dress,women,55.65,1,upi
+2023-09-15 05:19:18,baed5c38-5b10-4f0a-8281-fe651555820a,P7363,Men's Shoes,men,191.19,4,credit_card
+2023-08-07 09:48:55,f6b52e5f-b86e-427d-86ee-dec2135bd52d,P9570,Kid's Tricycle,kids,172.72,2,upi
+2023-02-08 00:26:38,e4147c14-4a37-4f76-b8db-dc1ef1beeb31,P3775,Kid's Story Book,kids,36.56,1,credit_card
+2023-06-29 20:27:47,bade7c04-3d9e-4b57-a0f5-338da85d8ec1,P5399,Women's Handbag,women,83.96,2,credit_card
+2023-02-19 18:33:43,2914d250-398e-44a8-886a-5286f4362659,P6740,Kid's Toy Car,kids,120.58,1,wallet
+2023-05-27 11:11:09,ce5f6e5f-353a-4940-95cb-3ee2f9f2ddfe,P1984,Women's Handbag,women,5.7,1,wallet
+2023-04-12 04:34:03,d4b97855-a0b4-4502-951b-9f36f0ef27a8,P6885,Kid's Toy Car,kids,23.95,5,upi
+2023-05-17 07:01:21,75c7c261-7ca4-4207-b990-5402afec1f02,P9362,Kid's Building Blocks,kids,121.27,4,wallet
+2023-09-14 10:12:29,613e3c34-fefe-4cc8-b07e-289734416b47,P7085,Men's T-Shirt,men,29.2,2,wallet
+2023-10-17 16:36:04,f6b173d7-8874-4d60-a0a1-9d2fda8e2380,P6742,Women's Scarf,women,37.41,3,upi
+2023-08-06 02:40:11,ca8cfc72-c397-4b78-bce1-8f66637fa7c4,P2553,Kid's Toy Car,kids,110.43,2,wallet
+2023-12-23 00:38:12,413e911d-05e4-481d-b0f9-f699c8266f38,P2947,Women's Earrings,women,167.25,5,credit_card
+2023-11-08 22:31:09,29e58e0c-2413-4954-97a9-c60e484da82b,P1525,Kid's Story Book,kids,26.09,5,credit_card
+2023-04-24 15:44:28,ff2bbd01-5319-4a47-a900-67c5879a062d,P1263,Men's Shoes,men,172.13,3,upi
+2023-10-15 17:52:02,6734ef8c-bf0a-410c-9f95-f2c5f0f96a2a,P3594,Kid's Building Blocks,kids,57.63,3,credit_card
+2023-04-01 06:19:07,3441d07f-80ae-4cf4-8c12-9ac49b4f5059,P8076,Men's Jeans,men,181.76,1,credit_card
+2023-09-23 11:52:54,b9caaffe-4e3a-4b5d-9b35-efe82e60170a,P2564,Kid's Onesie,kids,39.68,5,wallet
+2023-01-12 00:04:39,aa2eaba4-ec7f-4632-a87f-602b9b0b641f,P6363,Kid's Building Blocks,kids,115.47,3,upi
+2023-06-01 21:27:48,88921d74-cacd-42c7-900e-6d303e6bbca6,P8006,Women's Scarf,women,93.05,1,upi
+2023-08-07 20:22:25,93fb6f19-90d2-40af-af45-ec1b73d901cc,P7086,Kid's Toy Car,kids,115.6,3,upi
+2023-10-17 18:21:56,b415f22c-9ea5-4038-9eb6-3108b215c77f,P1462,Women's Handbag,women,44.21,2,credit_card
+2023-06-25 04:39:26,08a64f26-f8ed-43a3-995c-c713916b8d9d,P7716,Kid's Tricycle,kids,10.16,2,credit_card

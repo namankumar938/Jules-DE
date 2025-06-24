@@ -1,0 +1,20 @@
+{
+    "total_revenue": 310421.05999999994,
+    "revenue_by_category": {
+        "women": 105643.85,
+        "kids": 102457.62,
+        "men": 102319.59
+    },
+    "top_selling_products": {
+        "Women's Scarf": 24869.92,
+        "Men's Shoes": 23540.84,
+        "Kid's Building Blocks": 22797.11,
+        "Kid's Toy Car": 22497.52,
+        "Women's Earrings": 21690.7
+    },
+    "preferred_payment_methods": {
+        "credit_card": 343,
+        "wallet": 330,
+        "upi": 327
+    }
+}

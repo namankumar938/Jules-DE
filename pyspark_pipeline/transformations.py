@@ -3,26 +3,31 @@
 
 import logging
 from pyspark.sql import DataFrame
-from pyspark.sql.functions import col, lower, trim # `when` is not used in current transformations
-from pyspark.sql.utils import AnalysisException # For Spark-specific analysis errors
+from pyspark.sql.functions import col, lower, trim
+from pyspark.sql.utils import AnalysisException
 
 logger = logging.getLogger(__name__)
 
-# Define allowed values for categorical columns
-ALLOWED_CATEGORIES = ["men", "women", "kids"]
-ALLOWED_PAYMENT_METHODS = ["upi", "credit_card", "wallet"]
+# Hardcoded constants for allowed values are removed.
+# These will now be passed as parameters to clean_and_transform_data.
 
-def clean_and_transform_data(df: DataFrame | None) -> DataFrame | None:
+def clean_and_transform_data(
+    df: DataFrame | None,
+    allowed_categories: list,
+    allowed_payment_methods: list
+) -> DataFrame | None:
     """
     Cleans and transforms the raw purchase data DataFrame.
 
     Args:
         df: The input DataFrame loaded from purchase data. Can be None if ingestion failed.
+        allowed_categories: A list of allowed category strings.
+        allowed_payment_methods: A list of allowed payment_method strings.
 
     Returns:
         A DataFrame containing only valid and cleaned records,
         with normalized 'category' and 'payment_method' columns, or None if an error occurs
-        or if the input DataFrame is None.
+        or if the input DataFrame is None/invalid.
     """
     if df is None:
         logger.error("Input DataFrame is None. Cannot perform transformations.")
@@ -30,17 +35,18 @@ def clean_and_transform_data(df: DataFrame | None) -> DataFrame | None:
 
     if not isinstance(df, DataFrame):
         logger.error(f"Input must be a valid PySpark DataFrame. Got type: {type(df)}")
-        return None # Or raise ValueError as before, but None is consistent with failure modes
+        return None
+
+    if not allowed_categories or not isinstance(allowed_categories, list):
+        logger.error("allowed_categories must be a non-empty list.")
+        return None # Or raise ValueError
+    if not allowed_payment_methods or not isinstance(allowed_payment_methods, list):
+        logger.error("allowed_payment_methods must be a non-empty list.")
+        return None # Or raise ValueError
 
     try:
         logger.debug("Starting data cleaning and transformation process.")
 
-        # Initial count for logging/debugging if df is not empty
-        # Spark actions like count() can be expensive, use judiciously or only on active dev.
-        # initial_count = df.count()
-        # logger.debug(f"Initial record count for transformation: {initial_count}")
-
-        # 1. Handle Missing Values
         df_transformed = df.withColumn("category_trimmed", trim(col("category")))
         df_filtered_missing = df_transformed.filter(
             (col("category_trimmed").isNotNull()) & (col("category_trimmed") != "") &
@@ -48,28 +54,27 @@ def clean_and_transform_data(df: DataFrame | None) -> DataFrame | None:
             (col("quantity").isNotNull())
         )
 
-        # 2. Validate Data Values
         df_validated_values = df_filtered_missing.filter(
             (col("price") > 0) &
             (col("quantity") > 0)
         )
 
-        # 3. Normalize and Validate Category
         df_normalized_category = df_validated_values.withColumn(
             "category_normalized", lower(col("category_trimmed"))
         )
+        # Use the passed parameter for filtering
         df_validated_category = df_normalized_category.filter(
-            col("category_normalized").isin(ALLOWED_CATEGORIES)
+            col("category_normalized").isin(allowed_categories)
         )
 
-        # 4. Normalize and Validate Payment Method
         df_normalized_payment = df_validated_category.withColumn(
             "payment_method_trimmed", trim(col("payment_method"))
         ).withColumn(
             "payment_method_normalized", lower(col("payment_method_trimmed"))
         )
+        # Use the passed parameter for filtering
         df_validated_payment = df_normalized_payment.filter(
-            col("payment_method_normalized").isin(ALLOWED_PAYMENT_METHODS)
+            col("payment_method_normalized").isin(allowed_payment_methods)
         )
 
         final_df = df_validated_payment.select(
@@ -84,18 +89,14 @@ def clean_and_transform_data(df: DataFrame | None) -> DataFrame | None:
             col("payment_method_normalized").alias("payment_method")
         )
 
-        # final_count = final_df.count() # Action to materialize transformations and get count
         logger.info("Data cleaning and transformation completed successfully.")
-        # logger.debug(f"Record count after transformation: {final_count}")
         return final_df
 
     except AnalysisException as e:
-        logger.error(f"Spark AnalysisException during data transformation: {e}")
+        logger.error(f"Spark AnalysisException during data transformation: {e}", exc_info=True)
         return None
     except Exception as e:
-        logger.error(f"Unexpected error during data transformation: {e}")
-        # import traceback # For more detailed stack trace during development
-        # logger.error(traceback.format_exc())
+        logger.error(f"Unexpected error during data transformation: {e}", exc_info=True)
         return None
 
 
@@ -108,20 +109,34 @@ if __name__ == '__main__':
         sys.path.insert(0, project_root)
 
     from pyspark_pipeline.logging_utils import setup_logging
-    setup_logging() # Configure logging using the new utility
+    from pyspark_pipeline.config_utils import load_config # Import config loader
+    setup_logging()
 
     spark_session_main = None
-    raw_df_main = None # Renamed to avoid confusion with df inside function
+    raw_df_main = None
+
+    # Load configuration to get parameters for testing
+    config = load_config()
+    if config is None:
+        logger.critical("Failed to load configuration for transformations.py test run. Exiting.")
+        sys.exit(1)
+
+    # Get transformation rules from config, with defaults if not found
+    transform_rules_config = config.get('processing_rules', {}).get('transformations', {})
+    test_cats = transform_rules_config.get('allowed_categories', ["men", "women", "kids"])
+    test_pm = transform_rules_config.get('allowed_payment_methods', ["upi", "credit_card", "wallet"])
+    logger.info(f"Using categories for test: {test_cats}")
+    logger.info(f"Using payment methods for test: {test_pm}")
 
     try:
         from pyspark_pipeline.main import get_spark_session
-        spark_session_main = get_spark_session(app_name="TransformationTest")
+        spark_session_main = get_spark_session(app_name="TransformationTestConfig") # Updated app name
         logger.info("SparkSession obtained from pyspark_pipeline.main.")
     except ImportError:
         logger.warning("Could not import get_spark_session from pyspark_pipeline.main. Creating local SparkSession.")
         from pyspark.sql import SparkSession
         spark_session_main = SparkSession.builder \
-            .appName("TransformationTestLocal") \
+            .appName("TransformationTestLocalConfig") \
             .master("local[*]") \
             .getOrCreate()
 
@@ -129,7 +144,11 @@ if __name__ == '__main__':
         try:
             from pyspark_pipeline.ingestion import load_purchase_data
 
-            csv_file_path = "../sample_purchases.csv"
+            # Determine input file path from config
+            input_data_config = config.get('input_data', {})
+            rel_csv_file_path = input_data_config.get('file_path', "../sample_purchases.csv") # Default to known sample
+            csv_file_path = os.path.join(project_root, rel_csv_file_path) # Construct path relative to project_root
+
             logger.info(f"--- Testing transformations with data from: {csv_file_path} ---")
             raw_df_main = load_purchase_data(spark_session_main, csv_file_path)
 
@@ -138,15 +157,15 @@ if __name__ == '__main__':
                     raw_df_count = raw_df_main.count()
                     logger.info(f"Raw DataFrame row count: {raw_df_count}")
                     if raw_df_count > 0:
-                        logger.info("Raw DataFrame schema:")
+                        logger.debug("Raw DataFrame schema:") # Changed to debug
                         raw_df_main.printSchema()
-                        logger.info("Raw DataFrame sample (first 5 rows):")
+                        logger.debug("Raw DataFrame sample (first 5 rows):") # Changed to debug
                         raw_df_main.show(5, truncate=False)
                     else:
                         logger.info("Raw DataFrame is empty.")
 
-                    logger.info("Applying cleaning and transformations...")
-                    cleaned_df = clean_and_transform_data(raw_df_main)
+                    logger.info("Applying cleaning and transformations with config-driven rules...")
+                    cleaned_df = clean_and_transform_data(raw_df_main, test_cats, test_pm)
 
                     if cleaned_df is not None:
                         cleaned_df_count = cleaned_df.count()
@@ -160,14 +179,13 @@ if __name__ == '__main__':
                             logger.info("Cleaned DataFrame is empty after transformations.")
                     else:
                         logger.error("Cleaned DataFrame is None, an error occurred in transformations.")
-                except Exception as e_inner: # Catch Spark exceptions during operations on raw_df_main
+                except Exception as e_inner:
                     logger.error(f"Error processing raw DataFrame: {e_inner}", exc_info=True)
             else:
                 logger.error("Raw DataFrame is None (ingestion failed). Skipping transformations test.")
 
-            # Test with None input to clean_and_transform_data
-            logger.info("--- Testing clean_and_transform_data with None input ---")
-            none_input_df = clean_and_transform_data(None)
+            logger.info("--- Testing clean_and_transform_data with None input (using config rules) ---")
+            none_input_df = clean_and_transform_data(None, test_cats, test_pm)
             if none_input_df is None:
                 logger.info("Correctly handled None input to clean_and_transform_data, returned None.")
             else:

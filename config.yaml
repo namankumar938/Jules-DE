@@ -1,0 +1,26 @@
+# Configuration for the PySpark Retail Analytics Pipeline
+
+application:
+  name: "RetailAnalyticsPipeline" # Spark application name
+
+logging:
+  level: "INFO" # Default logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  # format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s" # Optional for future
+
+input_data:
+  # Path is relative to the project root directory
+  file_path: "sample_purchases.csv"
+
+processing_rules:
+  transformations:
+    allowed_categories:
+      - "men"
+      - "women"
+      - "kids"
+    allowed_payment_methods:
+      - "upi"
+      - "credit_card"
+      - "wallet"
+  kpi_generation:
+    top_selling_products:
+      top_n_default: 5

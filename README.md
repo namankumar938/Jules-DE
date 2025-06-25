@@ -127,3 +127,82 @@ Unit tests are provided to verify the correctness of the data processing logic.
 *   **Data Storage:** Saves processed data to CSV and KPIs to a JSON file.
 *   **Reporting:** Visualizes KPIs in a Jupyter Notebook.
 *   **Testing:** Includes unit tests for core logic.
+
+---
+
+## PySpark Retail Data Analytics Pipeline
+
+This section describes a refactored version of the pipeline using PySpark, suitable for larger datasets that benefit from distributed processing.
+
+### PySpark Project Structure
+
+The PySpark scripts are located in the `pyspark_scripts/` directory, with tests in `pyspark_tests/`.
+
+```
+.
+├── pyspark_scripts/    # Python scripts for the PySpark pipeline
+│   ├── spark_utils.py        # SparkSession management utilities
+│   ├── ingestion.py          # PySpark data ingestion module
+│   ├── transformation.py     # PySpark data transformation module
+│   ├── kpi_generation.py     # PySpark KPI calculation module
+│   ├── output_utils.py       # PySpark output saving module
+│   └── main_pipeline.py      # Main orchestrator for the PySpark pipeline
+├── pyspark_tests/      # Unit tests for the PySpark modules
+│   ├── test_spark_utils.py
+│   ├── test_ingestion.py
+│   ├── test_transformation.py
+│   └── test_kpi_generation.py
+├── data/                 # Data directory (shared with Pandas version)
+│   ├── sample_purchases.csv
+│   ├── pyspark_processed_purchases.parquet/ # Output from PySpark pipeline
+│   ├── pyspark_processed_purchases.csv/     # Output from PySpark pipeline
+│   └── pyspark_kpis.json                    # KPIs from PySpark pipeline
+... (other files and directories from Pandas version)
+```
+
+### Setup for PySpark
+
+1.  **Ensure PySpark is installed:**
+    The main `pip install` command in the general setup section now includes `pyspark`.
+    ```bash
+    pip install pyspark pandas faker matplotlib seaborn ipykernel
+    ```
+    For PySpark to run locally, you generally need Java installed. The `pyspark` pip package provides the necessary Python bindings. More advanced setups might involve configuring connections to a Spark cluster.
+
+### Running the PySpark Pipeline
+
+1.  **Ensure the sample data exists:**
+    If you haven't run the Pandas version's data generator, you can do so:
+    ```bash
+    # Ensure your virtual environment is active
+    python scripts/generate_sample_data.py
+    ```
+
+2.  **Run the main PySpark pipeline script:**
+    This script orchestrates ingestion, transformation, KPI calculation, and output saving.
+    ```bash
+    # Ensure your virtual environment is active
+    python -m pyspark_scripts.main_pipeline
+    ```
+    This will:
+    *   Read `data/sample_purchases.csv`.
+    *   Process the data using Spark.
+    *   Save the transformed data to `data/pyspark_processed_purchases.parquet/` and `data/pyspark_processed_purchases.csv/`.
+    *   Save calculated KPIs to `data/pyspark_kpis.json`.
+
+### Running PySpark Unit Tests
+
+Unit tests for the PySpark modules can be run using `unittest discover`:
+```bash
+# Ensure your virtual environment is active and pyspark, pandas are installed
+python -m unittest discover -s pyspark_tests -v
+```
+
+### Key PySpark Modules
+
+*   `pyspark_scripts/spark_utils.py`: Handles SparkSession creation and stopping.
+*   `pyspark_scripts/ingestion.py`: Loads data from CSV into a Spark DataFrame, defining a schema.
+*   `pyspark_scripts/transformation.py`: Performs data type conversions (e.g., string to timestamp) and feature engineering (e.g., calculating `total_purchase_amount`) on Spark DataFrames.
+*   `pyspark_scripts/kpi_generation.py`: Calculates KPIs (total revenue, revenue by category, top products, payment methods) using Spark DataFrame operations.
+*   `pyspark_scripts/output_utils.py`: Saves Spark DataFrames (to Parquet/CSV) and KPIs (to JSON).
+*   `pyspark_scripts/main_pipeline.py`: The main entry point that orchestrates the execution of the PySpark pipeline.

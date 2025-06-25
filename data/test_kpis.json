@@ -1,0 +1,13 @@
+{
+    "total_revenue": 250.0,
+    "category_summary": [
+        {
+            "category": "cat1",
+            "total_revenue": 100.0
+        },
+        {
+            "category": "cat2",
+            "total_revenue": 150.0
+        }
+    ]
+}

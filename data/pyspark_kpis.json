@@ -1,0 +1,53 @@
+{
+    "total_revenue": 310421.06,
+    "revenue_by_category": [
+        {
+            "category": "women",
+            "total_revenue": 105643.85
+        },
+        {
+            "category": "kids",
+            "total_revenue": 102457.62
+        },
+        {
+            "category": "men",
+            "total_revenue": 102319.59
+        }
+    ],
+    "top_selling_products": [
+        {
+            "product_name": "Women's Scarf",
+            "total_revenue": 24869.92
+        },
+        {
+            "product_name": "Men's Shoes",
+            "total_revenue": 23540.84
+        },
+        {
+            "product_name": "Kid's Building Blocks",
+            "total_revenue": 22797.11
+        },
+        {
+            "product_name": "Kid's Toy Car",
+            "total_revenue": 22497.52
+        },
+        {
+            "product_name": "Women's Earrings",
+            "total_revenue": 21690.7
+        }
+    ],
+    "preferred_payment_methods": [
+        {
+            "payment_method": "credit_card",
+            "transaction_count": 343
+        },
+        {
+            "payment_method": "wallet",
+            "transaction_count": 330
+        },
+        {
+            "payment_method": "upi",
+            "transaction_count": 327
+        }
+    ]
+}

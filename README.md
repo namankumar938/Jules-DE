@@ -1,7 +1,7 @@
-# Retail Data Analytics Pipeline
+# Retail Data Analytics Pipeline (PySpark Version)
 
 ## Overview
-This project is a Python-based data analytics pipeline designed to process customer purchase data from a CSV file for a retail platform. It performs data cleaning and validation, calculates various Key Performance Indicators (KPIs), and then prints a formatted report of these KPIs to the console.
+This project is a PySpark-based data analytics pipeline designed to process customer purchase data from a CSV file. It leverages Apache Spark for distributed data processing to clean the data, calculate various Key Performance Indicators (KPIs), and then prints a summary of these KPIs to the console.
 
 ## Features (KPIs Generated)
 The pipeline calculates and reports the following KPIs:
@@ -12,62 +12,65 @@ The pipeline calculates and reports the following KPIs:
 *   Average Order Value
 
 ## Directory Structure
-*   `data_models.py`: Defines the schemas (as comments) for input purchase data and the conceptual structures for output KPIs.
-*   `data_ingestion.py`: Contains the function `load_purchase_data_from_csv` for loading raw purchase data from CSV files.
-*   `data_processing.py`: Includes functions for data cleaning and transformation (`clean_and_transform_data`), and all core KPI calculation logic (e.g., `calculate_top_selling_products`).
-*   `reporting.py`: Responsible for formatting the calculated KPIs and printing a comprehensive report to the console via `generate_kpi_report`.
-*   `sample_purchases.csv`: A sample CSV file illustrating the expected input data format.
-*   `tests/`: Contains all unit tests for the project, ensuring reliability of data ingestion, processing, and reporting logic.
+*   `pyspark_pipeline/`: Directory containing the core PySpark pipeline modules.
+    *   `__init__.py`: Makes `pyspark_pipeline` a Python package.
+    *   `main.py`: Main script to orchestrate the entire PySpark pipeline.
+    *   `ingestion.py`: Handles loading raw purchase data into Spark DataFrames.
+    *   `transformations.py`: Contains logic for data cleaning and transformation using Spark DataFrame operations.
+    *   `kpi_generation.py`: Responsible for calculating KPIs from the transformed Spark DataFrame.
+*   `data_models.py`: Defines the conceptual schemas for input data (still relevant for understanding input CSV structure).
+*   `sample_purchases.csv`: Sample input CSV data used by the pipeline.
+*   `tests/`: Contains unit tests (currently for the original Python version; PySpark tests would be a future addition).
+*   Original Python files (e.g., `data_ingestion.py`, `data_processing.py`, `reporting.py`): These are now superseded by the modules in `pyspark_pipeline/` for the PySpark version of the pipeline.
 
 ## Data Format
 
 ### Input Data (`sample_purchases.csv`)
-The input data is expected in a CSV format. The column names and their conceptual data types are outlined in `data_models.py`. Key columns include:
-*   `event_timestamp`: Timestamp of the purchase.
-*   `user_id`: Unique identifier for the user.
-*   `order_id`: Unique identifier for the order.
-*   `product_id`: Unique identifier for the product.
-*   `product_name`: Name of the product.
-*   `category`: Product category (e.g., "men", "women", "kids").
-*   `price`: Price of a single unit of the product (float).
-*   `quantity`: Number of units purchased (integer).
-*   `payment_method`: Method used for payment (e.g., "upi", "credit_card", "wallet").
+The input data is expected in a CSV format. The expected columns are:
+`event_timestamp`, `user_id`, `order_id`, `product_id`, `product_name`, `category`, `price`, `quantity`, `payment_method`.
+An explicit schema (defining data types like StringType, FloatType, IntegerType) is applied during data ingestion in the PySpark pipeline.
 
 ### Output KPIs
-The calculated KPIs are printed to the console in a human-readable format. The conceptual structure and data types for these KPIs are described in `data_models.py`.
+The calculated KPIs are printed to the console. Table-based KPIs (like Top Selling Products) are displayed using `DataFrame.show()`, and scalar KPIs (like Average Order Value) are printed directly.
 
 ## Setup and Dependencies
-*   This project is written in Python 3.
-*   It uses standard Python libraries (e.g., `csv`, `collections`, `unittest`, `io`). No external packages need to be installed beyond a standard Python 3 environment.
+*   This project is written in Python 3 and uses Apache Spark.
+*   **Dependencies:**
+    *   `pyspark`: The PySpark library. Install using `pip install pyspark`.
+*   **Environment:**
+    *   A working Spark environment is required. For local execution, installing `pyspark` via pip is usually sufficient as it includes a bundled Spark distribution that can run in local mode.
 
 ## How to Run
 
-### To Generate a Sample Report:
-To generate and print the KPI report using the sample data:
+### Prerequisites:
+Ensure PySpark is installed in your Python environment:
 ```bash
-python reporting.py
+pip install pyspark
 ```
-This command executes the main block in `reporting.py`, which loads data from `sample_purchases.csv` (or an embedded comprehensive sample), processes it, and prints the full KPI report.
 
-### To Run Unit Tests:
-To execute the suite of unit tests:
-```bash
-python -m unittest discover tests
-```
-This command will discover and run all tests located in the `tests/` directory.
+### Running the Pipeline:
+1.  Navigate to the root directory of the project.
+2.  Execute the main pipeline script using:
+    ```bash
+    PYTHONPATH=. python -m pyspark_pipeline.main
+    ```
+    *   `PYTHONPATH=.` ensures that the `pyspark_pipeline` package (located in the current directory) is discoverable by Python if it's not installed as a site package.
+    *   This command runs the `main.py` script from the `pyspark_pipeline` package, which orchestrates the entire process.
+    *   The script uses `sample_purchases.csv` located in the project root by default.
 
-## Modules Overview
+    (Alternatively, for more complex deployments or cluster execution, `spark-submit` would typically be used, but for this project structure, the above command is suitable for local runs.)
 
-*   **`data_models.py`**: This file serves as a reference for data structures. It uses comments to outline the expected schema for input CSV data and the intended structure of the various KPI results before they are formatted for display.
+## Modules Overview (`pyspark_pipeline/`)
 
-*   **`data_ingestion.py`**: Provides the `load_purchase_data_from_csv` function, which is responsible for reading data from a specified CSV file path. It handles basic parsing and type conversion for `price` and `quantity` fields, skipping rows with conversion errors.
+*   **`main.py`**: Initializes the `SparkSession` and orchestrates the pipeline's execution flow. It calls functions from ingestion, transformations, and kpi_generation modules in sequence and prints the final KPI results.
+*   **`ingestion.py`**: Defines how raw data from the input CSV file is loaded into a Spark DataFrame. This includes applying a predefined schema to ensure data types are correctly inferred and handled from the start.
+*   **`transformations.py`**: Contains the `clean_and_transform_data` function, which applies various data cleaning rules to the DataFrame. This includes handling null or invalid values, normalizing string data (e.g., lowercase for categories), and filtering records based on predefined business rules (e.g., allowed categories, positive price/quantity).
+*   **`kpi_generation.py`**: Houses functions to compute the defined Key Performance Indicators. Each function takes the cleaned Spark DataFrame as input and performs necessary aggregations, groupings, and calculations using Spark DataFrame operations to generate the KPI results.
 
-*   **`data_processing.py`**: This is the core analytical engine. It contains `clean_and_transform_data` to filter and validate raw data according to defined business rules (e.g., valid categories, positive price/quantity). It also houses all the KPI calculation functions (e.g., `calculate_top_selling_products`, `calculate_average_order_value`).
-
-*   **`reporting.py`**: Focuses on the presentation of results. It imports calculated KPIs from `data_processing.py` and uses a set of `format_and_print_...` functions to display each KPI clearly in the console. The `generate_kpi_report` function orchestrates this process.
-
-## How It Works (High-Level Flow)
-1.  **Data Loading**: Purchase data is loaded from an input CSV file (e.g., `sample_purchases.csv`) by the `load_purchase_data_from_csv` function in `data_ingestion.py`.
-2.  **Data Cleaning**: The raw list of dictionaries is then passed to the `clean_and_transform_data` function in `data_processing.py`. This function filters out invalid records, normalizes data (e.g., case for categories), and ensures data consistency.
-3.  **KPI Calculation**: The cleaned data is used by the various `calculate_...` functions within `data_processing.py` (e.g., `calculate_total_revenue_by_category`, `calculate_purchase_frequency_per_user`) to compute the defined Key Performance Indicators.
-4.  **Report Generation**: Finally, the `generate_kpi_report` function in `reporting.py` takes the cleaned data, calls the necessary calculation functions from `data_processing.py`, and then uses its own `format_and_print_...` helper functions to display the final KPI report on the console.
+## How It Works (High-Level PySpark Flow)
+1.  **SparkSession Initialization**: A `SparkSession` is created, serving as the entry point for Spark functionality (`main.py`).
+2.  **Data Ingestion**: Purchase data is loaded from `sample_purchases.csv` into a Spark DataFrame. An explicit schema is applied during this stage to define data types for each column (`ingestion.py`).
+3.  **Data Transformation**: The raw DataFrame is then processed by the `clean_and_transform_data` function in `transformations.py`. This step involves filtering out invalid or incomplete records, normalizing data (e.g., converting categories to lowercase), and ensuring data quality using Spark DataFrame transformations.
+4.  **KPI Calculation**: The cleaned and transformed DataFrame is passed to various functions in `kpi_generation.py`. These functions use Spark's distributed computation capabilities (e.g., `groupBy`, `agg`, `sum`, `avg`, `count`) to calculate each of the defined KPIs.
+5.  **Results Display**: The resulting KPI DataFrames (and the scalar Average Order Value) are then printed to the console for review (`main.py`). For DataFrame results, `DataFrame.show()` is used.
+6.  **SparkSession Stop**: Finally, the `SparkSession` is stopped to release resources.
